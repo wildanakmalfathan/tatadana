@@ -1,4 +1,32 @@
-.vercel
+# Dependencies
 node_modules/
+/.pnp
+.pnp.js
+
+# Testing and verification
+/coverage
+
+# Next.js build output
 .next/
+out/
+
+# Production & Vercel
+.vercel
+build
+
+# Environment variables
 .env
+.env*.local
+!.env.example
+
+# Development & Agent scratch
+.agents/
+.telegram-offset.json
+*.log
+*.tmp
+data/*.tmp
+tsconfig.tsbuildinfo
+
+# OS metadata
+.DS_Store
+Thumbs.db

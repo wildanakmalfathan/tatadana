@@ -1,12 +1,18 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import crypto from 'node:crypto'
+import { createAdminClient } from '@/lib/supabase/admin'
+import { isSupabaseConfigured } from '@/lib/db/supabase-adapter'
 
 const AVATAR_DIR = path.join(process.cwd(), 'public', 'uploads', 'avatars')
 
 function ensureDirExists() {
-  if (!fs.existsSync(AVATAR_DIR)) {
-    fs.mkdirSync(AVATAR_DIR, { recursive: true })
+  try {
+    if (!fs.existsSync(AVATAR_DIR)) {
+      fs.mkdirSync(AVATAR_DIR, { recursive: true })
+    }
+  } catch {
+    // Graceful on read-only serverless filesystems (e.g. Vercel)
   }
 }
 
@@ -22,38 +28,66 @@ function sanitizeUserId(userId: string): string {
 }
 
 /**
- * Menyimpan buffer avatar ke disk secara persisten dan membersihkan foto lama user setelahnya (atomic)
+ * Menyimpan buffer avatar secara persisten:
+ * 1. Jika Supabase aktif, simpan ke Supabase Storage bucket ('avatars' atau 'tatadana-exports')
+ * 2. Jika filesystem lokal dapat ditulis (local dev), simpan ke public/uploads/avatars/
+ * 3. Jika filesystem read-only (Vercel serverless), gunakan Base64 Data URI fallback yang aman & persisten
  */
 export async function saveUserAvatar(
   userId: string,
   buffer: Buffer,
   extension: 'jpg' | 'png' | 'webp'
 ): Promise<{ filename: string; urlPath: string }> {
-  ensureDirExists()
-
   const safeUserId = sanitizeUserId(userId)
-
-  // 1. Buat nama file unik dan aman
   const randomSuffix = crypto.randomBytes(4).toString('hex')
   const filename = `avatar-${safeUserId}-${Date.now()}-${randomSuffix}.${extension}`
-  const targetPath = path.join(AVATAR_DIR, filename)
+  const mime = extension === 'jpg' ? 'image/jpeg' : `image/${extension}`
 
-  // Pastikan targetPath tetap berada dalam AVATAR_DIR (mencegah path traversal)
-  const resolvedTarget = path.resolve(targetPath)
-  const resolvedDir = path.resolve(AVATAR_DIR)
-  if (!resolvedTarget.startsWith(resolvedDir)) {
-    throw new Error('Percobaan path traversal terdeteksi pada penyimpanan berkas avatar')
+  // 1. Try Supabase Storage Cloud Upload
+  if (isSupabaseConfigured()) {
+    try {
+      const admin = createAdminClient()
+      const bucket = process.env.SUPABASE_STORAGE_BUCKET || 'avatars'
+      const { data, error } = await admin.storage
+        .from(bucket)
+        .upload(filename, buffer, {
+          contentType: mime,
+          upsert: true,
+        })
+
+      if (!error && data) {
+        const { data: publicData } = admin.storage.from(bucket).getPublicUrl(filename)
+        if (publicData?.publicUrl) {
+          return { filename, urlPath: publicData.publicUrl }
+        }
+      } else if (error) {
+        console.warn('[AvatarStorage] Supabase storage upload warning:', error.message)
+      }
+    } catch (err: any) {
+      console.warn('[AvatarStorage] Supabase storage exception:', err?.message)
+    }
   }
 
-  // 2. Tulis file baru ke disk terlebih dahulu (atomic commitment)
-  fs.writeFileSync(targetPath, buffer)
+  // 2. Try Local Persistent Filesystem (Local Dev)
+  try {
+    ensureDirExists()
+    const targetPath = path.join(AVATAR_DIR, filename)
+    const resolvedTarget = path.resolve(targetPath)
+    const resolvedDir = path.resolve(AVATAR_DIR)
 
-  // 3. Hanya setelah penulisan berhasil, bersihkan berkas avatar lama user ini
-  // Berkas baru (filename) akan dikecualikan dari proses pembersihan
-  cleanOldUserAvatars(safeUserId, filename)
+    if (resolvedTarget.startsWith(resolvedDir)) {
+      fs.writeFileSync(targetPath, buffer)
+      cleanOldUserAvatars(safeUserId, filename)
+      return { filename, urlPath: `/uploads/avatars/${filename}` }
+    }
+  } catch (fsErr: any) {
+    console.warn('[AvatarStorage] Filesystem write bypassed (Vercel serverless):', fsErr?.message)
+  }
 
-  const urlPath = `/uploads/avatars/${filename}`
-  return { filename, urlPath }
+  // 3. Robust Serverless Fallback (Base64 Data URI)
+  // Perfectly compatible with Vercel serverless: zero disk writes needed, 100% persistent in DB
+  const dataUri = `data:${mime};base64,${buffer.toString('base64')}`
+  return { filename, urlPath: dataUri }
 }
 
 /**
@@ -71,12 +105,12 @@ export function cleanOldUserAvatars(userId: string, preserveFilename?: string): 
   }
 
   try {
+    if (!fs.existsSync(AVATAR_DIR)) return 0
     const files = fs.readdirSync(AVATAR_DIR)
     const prefix = `avatar-${safeUserId}-`
 
     for (const file of files) {
       if (file.startsWith(prefix)) {
-        // Jangan hapus jika ini adalah file baru yang sedang aktif
         if (preserveFilename && file === preserveFilename) {
           continue
         }
@@ -86,18 +120,17 @@ export function cleanOldUserAvatars(userId: string, preserveFilename?: string): 
           const resolvedFilePath = path.resolve(filePath)
           const resolvedDir = path.resolve(AVATAR_DIR)
 
-          // Keamanan: pastikan file berada dalam AVATAR_DIR
           if (resolvedFilePath.startsWith(resolvedDir) && fs.existsSync(filePath)) {
             fs.unlinkSync(filePath)
             deletedCount++
           }
         } catch (err) {
-          console.error(`Gagal menghapus file avatar lama ${file}:`, err)
+          // Ignore deletion error on read-only filesystems
         }
       }
     }
   } catch (err) {
-    console.error('Error membaca direktori avatar:', err)
+    // Ignore read error on read-only filesystems
   }
 
   return deletedCount
@@ -122,7 +155,6 @@ export function getAvatarFilePath(filename: string): string | null {
   const resolvedFilePath = path.resolve(filePath)
   const resolvedDir = path.resolve(AVATAR_DIR)
 
-  // Pastikan path hasil resolve tetap dalam AVATAR_DIR
   if (!resolvedFilePath.startsWith(resolvedDir)) {
     return null
   }

@@ -1,14 +1,19 @@
 # Progress Log — Orchestrator 7
 
 ## Current Status
-Last visited: 2026-10-17T19:30:10Z
+Last visited: 2026-10-17T19:50:15Z
 - [x] Initial dispatch received & DISPATCH.md recorded
 - [x] Heartbeat cron active (task-16)
 - [x] BRIEFING.md initialized
 - [ ] Phase 0: Parallel Scope Survey (3 Explorers / Spec Miner) — In progress
-  - [ ] Explorer 1: DB & Supabase Architecture (beae7f48-62d5-4f24-84e4-85c91108d0d7) [running]
-  - [ ] Explorer 2: Storage & Serverless Compatibility (c1167080-ebc3-422b-aa6b-aef561bd3bdb) [running]
-  - [ ] Spec Miner 3: Build, Tests & Zero-Breakage Inventory (f012605e-e0f5-4ff7-a4f8-30270a29c0d4) [running]
+  - [x] Explorer 1: DB & Supabase Architecture (59f7508e-d143-4b52-8412-c2df5598b3e5) [COMPLETED]
+    - Identified UUID vs TEXT primary key requirement for wallets/categories/audit logs
+    - Identified missing avatar_url & avatar_type in public.users
+    - Identified public.profiles is a view; direct updates to public.users needed
+    - Identified synchronous caller contract preservation across 32 API routes
+    - Prepared 006_supabase_vercel_migration.sql
+  - [ ] Explorer 2: Storage & Serverless Compatibility (22619524-8ecb-45d5-893a-25a23c784697) [running]
+  - [ ] Spec Miner 3: Build, Tests & Zero-Breakage Inventory (cd4a2aca-fb52-44bf-bf1e-4c131ef8a236) [running]
 - [ ] Update PROJECT.md with Supabase & Vercel migration architecture & feature inventory
 - [ ] Phase 1: Parallel Execution with 5 specialist workers (R1 - R5)
 - [ ] Phase 2: Independent Reviewers, Challengers, and Forensic Auditor
@@ -18,4 +23,4 @@ Last visited: 2026-10-17T19:30:10Z
 Current iteration: 1 / 32
 
 ## Subagent Notes
-- Heartbeat check confirmed all 3 survey subagents actively reading and analyzing codebase.
+- Explorer 1 finished with complete SQL schema recommendations and store architecture. Awaiting Explorer 2 and Spec Miner 3.

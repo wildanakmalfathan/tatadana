@@ -1,0 +1,12 @@
+# Vercel Deployment Exclusions for TataDana
+.agents
+.git
+.github
+.env.local
+.telegram-offset.json
+tests
+scripts/verify*.mjs
+scripts/test*.mjs
+*.tmp
+*.log
+data/*.tmp

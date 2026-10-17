@@ -3,6 +3,7 @@ import path from 'node:path'
 import crypto from 'node:crypto'
 import { hashPasswordSync } from '@/lib/auth/password'
 import { normalizeEmail, normalizePhone } from '@/lib/auth/normalization'
+import { SupabaseAdapter, isSupabaseConfigured } from './supabase-adapter'
 
 export interface StoredUser {
   id: string
@@ -143,8 +144,12 @@ export class PersistentStore {
    * Ensures data directory exists
    */
   private static ensureDir() {
-    if (!fs.existsSync(DB_DIR)) {
-      fs.mkdirSync(DB_DIR, { recursive: true })
+    try {
+      if (!fs.existsSync(DB_DIR)) {
+        fs.mkdirSync(DB_DIR, { recursive: true })
+      }
+    } catch {
+      // Graceful on read-only serverless filesystems (e.g. Vercel)
     }
   }
 
@@ -253,12 +258,15 @@ export class PersistentStore {
   }
 
   /**
-   * Reads database from disk with mtime cache validation
+   * Reads database from disk or memory cache with mtime validation
    */
   public static read(): DatabaseSchema {
     this.ensureDir()
 
     if (!fs.existsSync(DB_FILE)) {
+      if (this.cachedData) {
+        return this.cachedData
+      }
       const initial = this.createInitialSeed()
       this.write(initial)
       return initial
@@ -293,8 +301,11 @@ export class PersistentStore {
       this.cachedData = parsed
       this.lastMtime = stats.mtimeMs
       return parsed
-    } catch (err) {
-      console.error('[PersistentStore] Error reading database file, recreating:', err)
+    } catch (err: any) {
+      if (this.cachedData) {
+        return this.cachedData
+      }
+      console.warn('[PersistentStore] Notice reading DB file, initializing initial seed:', err?.message || err)
       const initial = this.createInitialSeed()
       this.write(initial)
       return initial
@@ -302,33 +313,66 @@ export class PersistentStore {
   }
 
   /**
-   * Atomically writes database to disk using temporary file rename
+   * Atomically writes database to disk (if writable) and syncs to Supabase Cloud
    */
   public static write(data: DatabaseSchema): void {
-    this.ensureDir()
-    const tmpFile = `${DB_FILE}.${crypto.randomBytes(6).toString('hex')}.tmp`
+    // 1. Always update memory state immediately
+    this.cachedData = data
 
+    // 2. Persist to local disk when filesystem is writable
+    const tmpFile = `${DB_FILE}.${crypto.randomBytes(6).toString('hex')}.tmp`
     try {
+      this.ensureDir()
       const json = JSON.stringify(data, null, 2)
       fs.writeFileSync(tmpFile, json, 'utf-8')
       fs.renameSync(tmpFile, DB_FILE)
-      this.cachedData = data
-      const stats = fs.statSync(DB_FILE)
-      this.lastMtime = stats.mtimeMs
-    } catch (err) {
+      if (fs.existsSync(DB_FILE)) {
+        const stats = fs.statSync(DB_FILE)
+        this.lastMtime = stats.mtimeMs
+      }
+    } catch (err: any) {
       if (fs.existsSync(tmpFile)) {
         try { fs.unlinkSync(tmpFile) } catch {}
       }
-      throw err
+      // On Vercel / read-only serverless filesystem, keep state in memory without throwing EROFS
+      if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+        console.warn('[PersistentStore] Disk write skipped or read-only:', err?.message || err)
+      }
+    }
+
+    // 3. Supabase Cloud PostgreSQL Sync (when configured)
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.syncDatabase(data).catch((err) => {
+        console.warn('[PersistentStore] Supabase cloud sync notice:', err?.message || err)
+      })
     }
   }
 
   /**
-   * Persists database state to disk (alias to write, optionally uses current read state)
+   * Persists database state to disk and cloud (alias to write, optionally uses current read state)
    */
   public static save(data?: DatabaseSchema): void {
     const targetData = data || this.read()
     this.write(targetData)
+  }
+
+  /**
+   * Hydrates memory cache directly from Supabase Cloud if available
+   */
+  private static isHydrating = false
+  public static async hydrateFromSupabase(): Promise<void> {
+    if (this.isHydrating || !isSupabaseConfigured()) return
+    this.isHydrating = true
+    try {
+      const remoteDb = await SupabaseAdapter.fetchFullDatabase()
+      if (remoteDb && remoteDb.users && remoteDb.users.length > 0) {
+        this.cachedData = remoteDb
+      }
+    } catch (err: any) {
+      console.warn('[PersistentStore.hydrateFromSupabase] Hydration notice:', err?.message || err)
+    } finally {
+      this.isHydrating = false
+    }
   }
 
   // ============================================================================
@@ -412,6 +456,14 @@ export class PersistentStore {
     db.categories.push(...userCategories)
 
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeUser(newUser).catch(() => {})
+      for (const cat of userCategories) {
+        SupabaseAdapter.writeCategory(cat).catch(() => {})
+      }
+    }
+
     return newUser
   }
 
@@ -439,6 +491,11 @@ export class PersistentStore {
     }
     db.users[index] = updated
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeUser(updated).catch(() => {})
+    }
+
     return updated
   }
 
@@ -500,6 +557,18 @@ export class PersistentStore {
 
     db.wallets.push(newWallet)
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeWallet(newWallet).catch(() => {})
+      if (walletData.is_default || walletData.is_default_telegram) {
+        for (const w of db.wallets) {
+          if (w.user_id === walletData.user_id && w.id !== newWallet.id) {
+            SupabaseAdapter.writeWallet(w).catch(() => {})
+          }
+        }
+      }
+    }
+
     return newWallet
   }
 
@@ -531,7 +600,32 @@ export class PersistentStore {
     }
     db.wallets[index] = updated
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeWallet(updated).catch(() => {})
+      if (updates.is_default || updates.is_default_telegram) {
+        for (const w of db.wallets) {
+          if (w.user_id === userId && w.id !== id) {
+            SupabaseAdapter.writeWallet(w).catch(() => {})
+          }
+        }
+      }
+    }
+
     return updated
+  }
+
+  public static deleteWallet(id: string, userId: string): boolean {
+    const db = this.read()
+    const index = db.wallets.findIndex((w) => w.id === id && w.user_id === userId)
+    if (index === -1) return false
+    db.wallets.splice(index, 1)
+    this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.deleteWallet(id).catch(() => {})
+    }
+    return true
   }
 
   /**
@@ -546,6 +640,10 @@ export class PersistentStore {
     wallet.balance = Math.round(wallet.balance + intDelta)
     wallet.updated_at = new Date().toISOString()
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeWallet(wallet).catch(() => {})
+    }
   }
 
   // ============================================================================
@@ -583,7 +681,25 @@ export class PersistentStore {
 
     db.categories.push(newCat)
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeCategory(newCat).catch(() => {})
+    }
+
     return newCat
+  }
+
+  public static deleteCategory(id: string, userId: string): boolean {
+    const db = this.read()
+    const index = db.categories.findIndex((c) => c.id === id && c.user_id === userId)
+    if (index === -1) return false
+    db.categories.splice(index, 1)
+    this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.deleteCategory(id).catch(() => {})
+    }
+    return true
   }
 
   // ============================================================================
@@ -725,6 +841,22 @@ export class PersistentStore {
 
     db.transactions.push(newTx)
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeTransaction(newTx).catch(() => {})
+      if (newTx.wallet_id) {
+        const w = db.wallets.find((item) => item.id === newTx.wallet_id)
+        if (w) SupabaseAdapter.writeWallet(w).catch(() => {})
+      }
+      if (newTx.destination_wallet_id) {
+        const dst = db.wallets.find((item) => item.id === newTx.destination_wallet_id)
+        if (dst) SupabaseAdapter.writeWallet(dst).catch(() => {})
+      }
+      if (user) {
+        SupabaseAdapter.writeUser(user).catch(() => {})
+      }
+    }
+
     return newTx
   }
 
@@ -785,6 +917,23 @@ export class PersistentStore {
 
     db.transactions[index] = newTx
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeTransaction(newTx).catch(() => {})
+      if (newTx.wallet_id) {
+        const w = db.wallets.find((item) => item.id === newTx.wallet_id)
+        if (w) SupabaseAdapter.writeWallet(w).catch(() => {})
+      }
+      if (newTx.destination_wallet_id) {
+        const dst = db.wallets.find((item) => item.id === newTx.destination_wallet_id)
+        if (dst) SupabaseAdapter.writeWallet(dst).catch(() => {})
+      }
+      if (oldTx.wallet_id && oldTx.wallet_id !== newTx.wallet_id) {
+        const oldW = db.wallets.find((item) => item.id === oldTx.wallet_id)
+        if (oldW) SupabaseAdapter.writeWallet(oldW).catch(() => {})
+      }
+    }
+
     return newTx
   }
 
@@ -816,6 +965,19 @@ export class PersistentStore {
 
     db.transactions.splice(index, 1)
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.deleteTransaction(id).catch(() => {})
+      if (oldTx.wallet_id) {
+        const w = db.wallets.find((item) => item.id === oldTx.wallet_id)
+        if (w) SupabaseAdapter.writeWallet(w).catch(() => {})
+      }
+      if (oldTx.destination_wallet_id) {
+        const dst = db.wallets.find((item) => item.id === oldTx.destination_wallet_id)
+        if (dst) SupabaseAdapter.writeWallet(dst).catch(() => {})
+      }
+    }
+
     return true
   }
 
@@ -883,6 +1045,9 @@ export class PersistentStore {
       existing.amount = limit
       existing.updated_at = now.toISOString()
       this.write(db)
+      if (isSupabaseConfigured()) {
+        SupabaseAdapter.writeBudget(existing).catch(() => {})
+      }
       return existing
     }
 
@@ -903,6 +1068,11 @@ export class PersistentStore {
 
     db.budgets.push(newBudget)
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeBudget(newBudget).catch(() => {})
+    }
+
     return newBudget
   }
 
@@ -929,6 +1099,11 @@ export class PersistentStore {
 
     db.budgets[index] = updated
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeBudget(updated).catch(() => {})
+    }
+
     return updated
   }
 
@@ -939,6 +1114,11 @@ export class PersistentStore {
 
     db.budgets.splice(index, 1)
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.deleteBudget(id).catch(() => {})
+    }
+
     return true
   }
 
@@ -965,6 +1145,11 @@ export class PersistentStore {
     }
     db.audit_logs.push(newLog)
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeAuditLog(newLog).catch(() => {})
+    }
+
     return newLog
   }
 
@@ -1012,6 +1197,11 @@ export class PersistentStore {
     }
     db.payment_transactions.push(newPayment)
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writePayment(newPayment).catch(() => {})
+    }
+
     return newPayment
   }
 
@@ -1039,11 +1229,19 @@ export class PersistentStore {
       if (user) {
         user.plan = existing.plan === 'pro_lifetime' ? 'pro_lifetime' : 'pro'
         user.updated_at = new Date().toISOString()
+        if (isSupabaseConfigured()) {
+          SupabaseAdapter.writeUser(user).catch(() => {})
+        }
       }
     }
 
     db.payment_transactions[index] = updated
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writePayment(updated).catch(() => {})
+    }
+
     return updated
   }
 
@@ -1068,6 +1266,11 @@ export class PersistentStore {
     })
 
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeUser(user).catch(() => {})
+    }
+
     return user
   }
 
@@ -1088,6 +1291,11 @@ export class PersistentStore {
     })
 
     this.write(db)
+
+    if (isSupabaseConfigured()) {
+      SupabaseAdapter.writeUser(user).catch(() => {})
+    }
+
     return user
   }
 
@@ -1101,6 +1309,9 @@ export class PersistentStore {
     if (user) {
       user.last_seen_at = new Date().toISOString()
       this.write(db)
+      if (isSupabaseConfigured()) {
+        SupabaseAdapter.writeUser(user).catch(() => {})
+      }
     }
   }
 

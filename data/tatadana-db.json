@@ -14,8 +14,8 @@
       "telegram_username": "wildanakmal",
       "telegram_connected": true,
       "telegram_connected_at": "2026-10-17T08:10:13.252Z",
-      "monthly_tx_count": 189,
-      "last_seen_at": "2026-10-17T18:37:09.221Z",
+      "monthly_tx_count": 194,
+      "last_seen_at": "2026-10-17T19:33:07.333Z",
       "created_at": "2026-10-17T08:10:13.252Z",
       "updated_at": "2026-10-17T18:10:47.076Z",
       "avatar_url": "💎",
@@ -7164,6 +7164,358 @@
       "last_seen_at": "2026-10-17T18:57:39.036Z",
       "created_at": "2026-10-17T18:57:39.036Z",
       "updated_at": "2026-10-17T18:57:39.036Z"
+    },
+    {
+      "id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+      "name": "Pilot User E2E",
+      "email": "pilot.1792263511996.34@tatadana.id",
+      "phone": "+6281255644296",
+      "password_hash": "scrypt:10ce4bd9ef19e7ef101ff26a37097697:dd1a5492a306641abe74909415bffac20dd3913971d418c8aa7039064373135e40db613c16da981d6277160620753c4242372aaf536c2c616b0a3bdcaf510890",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T18:59:27.337Z",
+      "created_at": "2026-10-17T18:59:18.561Z",
+      "updated_at": "2026-10-17T18:59:27.338Z"
+    },
+    {
+      "id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+      "name": "Normal User ZeroTrust",
+      "email": "user.test.1792263512092@tatadana.id",
+      "phone": "+6281364454976",
+      "password_hash": "scrypt:c001214f0dd33f3af98c2a4dbe83a61b:4086c87f052b21e7d4f6ba37c8572d275027601c7d5b35219f3e9a2f4c6bdf3d42f8be55981b33cc73cc7914b0c93b747a1076f132a72f2d87cbf122369e722c",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T18:59:52.741Z",
+      "created_at": "2026-10-17T18:59:52.294Z",
+      "updated_at": "2026-10-17T18:59:52.741Z"
+    },
+    {
+      "id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+      "name": "Avatar User A",
+      "email": "user.avatar.a.1792263602699@tatadana.id",
+      "phone": "+6281896677822",
+      "password_hash": "scrypt:4a8b0a550634c42a03df242ad498ed07:bb1670e19917056a09ca4c29a31dd49c04efd9f4f562e16c6c119318f06a52ec3119fbab0f09c1059afd54b9a1584ef04fdba90faff46d2341c166f81255b23e",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "/uploads/avatars/avatar-f476345b-38f4-4455-b23e-c2dd22ebae28-1792263606168-5dc5d857.webp",
+      "avatar_type": "uploaded",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:00:03.761Z",
+      "created_at": "2026-10-17T19:00:02.845Z",
+      "updated_at": "2026-10-17T19:00:06.172Z"
+    },
+    {
+      "id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+      "name": "Avatar User B",
+      "email": "user.avatar.b.1792263602699@tatadana.id",
+      "phone": "+6281946363265",
+      "password_hash": "scrypt:4aca035c15e697f54bb9320a94bb0c83:3250635504d1e3ccc8618efe2f8b0acf686ff33d110e06468cb2ac29d81cda82770a61ee1c05173adaba55b3bcf6d90af54532e4033858da3f67676b41411b94",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:00:03.891Z",
+      "created_at": "2026-10-17T19:00:03.069Z",
+      "updated_at": "2026-10-17T19:00:03.892Z"
+    },
+    {
+      "id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "name": "Sobat Bersih Satu",
+      "email": "clean.user1.1792263512274@tatadana.id",
+      "phone": "+6281263512274",
+      "password_hash": "scrypt:5db81e95291a0f0e4ebdf3ea32bda170:cbe72ba112a10f81a6c74af43d5f8ae11e39d22a12e5636632a986881367647c53168606cfc08a8049a5c2ecae24f1c6aad8d778e9bbec58524fe0fc2a6916fa",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 2,
+      "last_seen_at": "2026-10-17T19:00:06.927Z",
+      "created_at": "2026-10-17T19:00:06.400Z",
+      "updated_at": "2026-10-17T19:00:06.927Z"
+    },
+    {
+      "id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+      "name": "Sobat Bersih Dua",
+      "email": "clean.user2.1792263616344_76402@tatadana.id",
+      "phone": "+6281961594460",
+      "password_hash": "scrypt:65848cfb0fb366030a99fedfe63f0e87:fa506e2130703a731cb251692397e909f034f2c3572a667d511e45dd540fee84bd9978fb5c8c2466cb5b9258413a19ae01b18387dd65174435bbd223db4172b8",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:00:16.934Z",
+      "created_at": "2026-10-17T19:00:16.440Z",
+      "updated_at": "2026-10-17T19:00:16.935Z"
+    },
+    {
+      "id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+      "name": "Adversarial Verifier",
+      "email": "adversarial.user.1792263629467@tatadana.id",
+      "phone": "+6281725891564",
+      "password_hash": "scrypt:39a4fe145f24abf48235f0ae4fa73045:4408bb4388d46ad8cbb2994ba8e275422e16c934bfc3c40e44bfada22de0239224c777c3f69cf426fdffabc504eb932b48d2075b9bd2b0affcabf947e7f604a4",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:00:30.097Z",
+      "created_at": "2026-10-17T19:00:29.627Z",
+      "updated_at": "2026-10-17T19:00:32.949Z"
+    },
+    {
+      "id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+      "name": "Role Attack admin",
+      "email": "mal.role.128x2i@example.com",
+      "phone": "+6281977332563",
+      "password_hash": "scrypt:fe78e7808dcdfbe1fd7d721e6243dd2c:c626877caf3304ff08c23ed4e83fe5387a1fbf69a3eed980ebb0e2caaa4a6c11cd8f9b078c3b6c1a933a495a3912407f5ab78b4eeb83b8b3fcbe918ba3491d10",
+      "role": "user",
+      "plan": "starter",
+      "status": "pending_approval",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:01:06.882Z",
+      "created_at": "2026-10-17T19:01:06.882Z",
+      "updated_at": "2026-10-17T19:01:06.882Z"
+    },
+    {
+      "id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+      "name": "Role Attack superadmin",
+      "email": "mal.role.tbsd5n@example.com",
+      "phone": "+6281966130115",
+      "password_hash": "scrypt:72fa24ce878288d9c64ec1983d914fce:01aba9a73c7e25aac9227a7876c439d88eb832b80b7fd74de8e32fc3dde9d784da3c19beb7272caac8ee4255ed6ef49b9c8df8dcff183f92b9332dbd694a3cb4",
+      "role": "user",
+      "plan": "starter",
+      "status": "pending_approval",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:01:07.103Z",
+      "created_at": "2026-10-17T19:01:07.103Z",
+      "updated_at": "2026-10-17T19:01:07.103Z"
+    },
+    {
+      "id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+      "name": "Role Attack ADMIN",
+      "email": "mal.role.g7es8g@example.com",
+      "phone": "+6281981203842",
+      "password_hash": "scrypt:7f1cee731a157bba5b90fcfbda794163:ccd4655dcfb8ecf4aa7e37530f83a02b67f3819b6e19eb4a2c022aadd096f8564ea7f1a00d1e6975c48862d53afb039baaa3cec94c74170d071d64dcb5130edc",
+      "role": "user",
+      "plan": "starter",
+      "status": "pending_approval",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:01:07.295Z",
+      "created_at": "2026-10-17T19:01:07.295Z",
+      "updated_at": "2026-10-17T19:01:07.295Z"
+    },
+    {
+      "id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+      "name": "Role Attack root",
+      "email": "mal.role.2j13sk@example.com",
+      "phone": "+6281912643186",
+      "password_hash": "scrypt:d884ccef2eb74610571938cf3f056319:c7ddb7818539d2774edd7795ea145de0788e3fce721728114b0dc0c862d6b807c0db249578a812d70a03c9ec199980055a857990708958d485495d323423aad5",
+      "role": "user",
+      "plan": "starter",
+      "status": "pending_approval",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:01:07.526Z",
+      "created_at": "2026-10-17T19:01:07.526Z",
+      "updated_at": "2026-10-17T19:01:07.526Z"
+    },
+    {
+      "id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+      "name": "Role Attack administrator",
+      "email": "mal.role.0w13mr@example.com",
+      "phone": "+6281930202776",
+      "password_hash": "scrypt:1195022e3e8cf02dc32bd73e20081430:54dace613236c156ddc84209d385a94de391e451a643b468bf5e23fe7bd01092d90298eccc0fde5e9104878a48fcd08b0dd12b6bbb6424d855df10bf4c30caef",
+      "role": "user",
+      "plan": "starter",
+      "status": "pending_approval",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:01:07.768Z",
+      "created_at": "2026-10-17T19:01:07.768Z",
+      "updated_at": "2026-10-17T19:01:07.768Z"
+    },
+    {
+      "id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "name": "Adversarial Verification User",
+      "email": "adv.user.1792263666300@tatadana.id",
+      "phone": "+6281545822997",
+      "password_hash": "scrypt:c58724650702106968c5c151f025c9f2:22f1ea96d8c1cfb669fb1af17e471d77fe43840cc4427b4713131c2de7f04d25b56d78ba18b1929a790e7da462c0955df61e6ed9b33579ad29c5f28d2be176ba",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:01:08.541Z",
+      "created_at": "2026-10-17T19:01:07.981Z",
+      "updated_at": "2026-10-17T19:01:15.173Z"
+    },
+    {
+      "id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+      "name": "Stress Attacker User A",
+      "email": "adv.stress.a.1792263692591@tatadana.id",
+      "phone": "+6281165622915",
+      "password_hash": "scrypt:8a9f810b7b8643c39b6b57d6a1410f1f:cd9d5287f29297193f9b27569e8d9da098ec158ec8c4d71d5dd939d44ce49cb546ab99cfc542d2a50cbcd39f5e914026cf2ce5842216ac217c56730d10a805d6",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:01:33.999Z",
+      "created_at": "2026-10-17T19:01:32.754Z",
+      "updated_at": "2026-10-17T19:01:42.611Z"
+    },
+    {
+      "id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+      "name": "Stress Target User B",
+      "email": "adv.stress.b.1792263692591@tatadana.id",
+      "phone": "+6281277420221",
+      "password_hash": "scrypt:25f0cec81130d25e197cc68b57384bd5:3a3e6451f4c60ff905c79fcb5d2686d80afa7a12887e2061c4aa725d830b6f6ce50149b65a4427cc8130da86b8cb4bae611072c8b186a0156adc1e89036464a3",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "/uploads/avatars/avatar-b92a303f-617e-43ed-955f-35e91cbb1850-1792263694365-ce4e44cc.jpg",
+      "avatar_type": "uploaded",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:01:34.137Z",
+      "created_at": "2026-10-17T19:01:32.986Z",
+      "updated_at": "2026-10-17T19:01:34.368Z"
+    },
+    {
+      "id": "135be858-4426-4a99-a4f7-a40308a36d93",
+      "name": "Stress Lifecycle User C",
+      "email": "adv.stress.c.1792263692591@tatadana.id",
+      "phone": "+6281359536931",
+      "password_hash": "scrypt:0c4bdb9b40577af65ac8fc0d669889a9:00db1323d605848f8d1599afe393e3835da4d6c06a94bc75b351dc24675119a4f346d043df1f826e588ed0573cb60b07d09cef2bb1a26cec90421d089cd4bbe1",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:01:34.298Z",
+      "created_at": "2026-10-17T19:01:33.235Z",
+      "updated_at": "2026-10-17T19:01:45.810Z"
+    },
+    {
+      "id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+      "name": "Pilot User E2E",
+      "email": "pilot.1792265507725.881@tatadana.id",
+      "phone": "+6281240162193",
+      "password_hash": "scrypt:31446d2adfc0400eaace646ac086f1d5:f0d314deb0d2dc32f69535b27f08028c00d4381aaf69f5b14537970778cfaa8d34ec332466929e8fc73230709c331ab892d1172c5711117bce0a9b9bee6ebf93",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:32:37.294Z",
+      "created_at": "2026-10-17T19:32:28.933Z",
+      "updated_at": "2026-10-17T19:32:37.294Z"
+    },
+    {
+      "id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+      "name": "Avatar User A",
+      "email": "user.avatar.a.1792265588847@tatadana.id",
+      "phone": "+6281855980579",
+      "password_hash": "scrypt:0b1561b89f18bdb0dc25602c9f09ff26:14137130ac3c80d27e6f5b6869cacde23fc22d7699cf72f6548b0056a876bcefedd18e17529c860ffb556a987e4c56f28f9ca85deb7d4b0389d277ed0f3937f6",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "/uploads/avatars/avatar-5df6114c-2a51-4a63-991e-91e03d8aef5d-1792265590910-0f688a56.webp",
+      "avatar_type": "uploaded",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:33:09.337Z",
+      "created_at": "2026-10-17T19:33:08.906Z",
+      "updated_at": "2026-10-17T19:33:10.911Z"
+    },
+    {
+      "id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+      "name": "Avatar User B",
+      "email": "user.avatar.b.1792265588847@tatadana.id",
+      "phone": "+6281971721898",
+      "password_hash": "scrypt:5e953e2db7fd8fec5e72a876d7abc151:faed24b67dba2fd07448ee0f1f9d7ac09aa2feb2b173d8ec875fa7c2fbf05e8437c280dca1884ca429cf8e0574e8765f86f2c9a1f92bd0e620b0fc04c53284d2",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:33:09.427Z",
+      "created_at": "2026-10-17T19:33:09.001Z",
+      "updated_at": "2026-10-17T19:33:09.428Z"
+    },
+    {
+      "id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "name": "Sobat Bersih Satu",
+      "email": "clean.user1.1792265507878@tatadana.id",
+      "phone": "+6281265507878",
+      "password_hash": "scrypt:b2c9a4b99de0ddd84c9a24462c2dcd8b:893ee69a1a6feb2ff8ea1e05dd55e3d1cb7cff99779773907e34b817734075b82e89f2487f54ddfc37acd8ed6e809f5f9db5af4d5ee0f667f51cb3ebf1131fbc",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 2,
+      "last_seen_at": "2026-10-17T19:33:11.254Z",
+      "created_at": "2026-10-17T19:33:11.003Z",
+      "updated_at": "2026-10-17T19:33:11.254Z"
+    },
+    {
+      "id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+      "name": "Sobat Bersih Dua",
+      "email": "clean.user2.1792265599366_66849@tatadana.id",
+      "phone": "+6281937603908",
+      "password_hash": "scrypt:9eec901bca907042f1f60c424be8b85e:5c5672da08c2fa0a222c4bf00032d9164b0ecda9e53d43ff8f66b25a2683ebd9fcf05a0aad39bcdf808fb2580ab7d35faf2d6b7f3487b48944343b7ddaff09cc",
+      "role": "user",
+      "plan": "starter",
+      "status": "active",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:33:19.715Z",
+      "created_at": "2026-10-17T19:33:19.444Z",
+      "updated_at": "2026-10-17T19:33:19.716Z"
+    },
+    {
+      "id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+      "name": "Pilot User E2E",
+      "email": "pilot.1792265654889.711@tatadana.id",
+      "phone": "+6281231462269",
+      "password_hash": "scrypt:8f11f41a96d889f50c508a5f54913ba1:a4d1359ce0182a293928bea88cc79f132a6fe147ff3c63773f8ff12168e166adc60e9656df04cd00246d2b9b81d9e7aa864330553046fd51178456cf7875c9f3",
+      "role": "user",
+      "plan": "starter",
+      "status": "pending_approval",
+      "avatar_url": "🧑‍💼",
+      "avatar_type": "emoji",
+      "monthly_tx_count": 0,
+      "last_seen_at": "2026-10-17T19:34:53.670Z",
+      "created_at": "2026-10-17T19:34:53.670Z",
+      "updated_at": "2026-10-17T19:34:53.670Z"
     }
   ],
   "wallets": [
@@ -7172,7 +7524,7 @@
       "user_id": "00000000-0000-0000-0000-000000000001",
       "name": "BCA Utama",
       "type": "bank",
-      "balance": 372118000,
+      "balance": 382118000,
       "account_number": "8214609328",
       "is_default": true,
       "is_default_telegram": true,
@@ -10240,6 +10592,76 @@
       "created_at": "2026-10-17T18:57:34.973Z",
       "updated_at": "2026-10-17T18:57:35.081Z",
       "is_archived": true
+    },
+    {
+      "id": "94c4c2c7-f9c0-4e95-9ffb-abb7febccc6a",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "name": "Dompet Khusus OQRETY",
+      "type": "bank",
+      "balance": 965000,
+      "account_number": null,
+      "is_default": false,
+      "is_default_telegram": false,
+      "icon": "🏦",
+      "color": "#3b82f6",
+      "created_at": "2026-10-17T18:58:48.581Z",
+      "updated_at": "2026-10-17T18:58:48.581Z"
+    },
+    {
+      "id": "20492713-a396-4384-82ff-25c9eacbab2a",
+      "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "name": "Bank Mandiri Payroll",
+      "type": "bank",
+      "balance": 7150000,
+      "account_number": "1400012345678",
+      "is_default": true,
+      "is_default_telegram": true,
+      "icon": "🏦",
+      "color": "#3b82f6",
+      "created_at": "2026-10-17T19:00:15.932Z",
+      "updated_at": "2026-10-17T19:00:15.932Z"
+    },
+    {
+      "id": "77f097a2-7462-4e56-9e85-cf25dcfe959c",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "name": "Dompet Khusus DMSYAV",
+      "type": "bank",
+      "balance": 965000,
+      "account_number": null,
+      "is_default": false,
+      "is_default_telegram": false,
+      "icon": "🏦",
+      "color": "#3b82f6",
+      "created_at": "2026-10-17T19:31:59.543Z",
+      "updated_at": "2026-10-17T19:31:59.543Z"
+    },
+    {
+      "id": "3a320797-1145-4f72-aeb0-2c943a6608c3",
+      "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "name": "Bank Mandiri Payroll",
+      "type": "bank",
+      "balance": 7150000,
+      "account_number": "1400012345678",
+      "is_default": true,
+      "is_default_telegram": true,
+      "icon": "🏦",
+      "color": "#3b82f6",
+      "created_at": "2026-10-17T19:33:19.184Z",
+      "updated_at": "2026-10-17T19:33:19.184Z"
+    },
+    {
+      "id": "0592d0a8-a91f-4dcc-a41e-0c3497629fb1",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "name": "Dompet Khusus JSAZYI",
+      "type": "bank",
+      "balance": 965000,
+      "account_number": null,
+      "is_default": false,
+      "is_default_telegram": false,
+      "icon": "🏦",
+      "color": "#3b82f6",
+      "created_at": "2026-10-17T19:34:24.086Z",
+      "updated_at": "2026-10-17T19:34:24.086Z"
     }
   ],
   "categories": [
@@ -37374,6 +37796,1326 @@
       "is_system": true,
       "created_at": "2026-10-17T18:57:39.036Z",
       "updated_at": "2026-10-17T18:57:39.036Z"
+    },
+    {
+      "id": "be4bf512-38f0-455a-a3f2-6d5cd181c299",
+      "user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:18.561Z",
+      "updated_at": "2026-10-17T18:59:18.561Z"
+    },
+    {
+      "id": "082a40ee-7c06-411f-b9b7-e36df9cfa6a8",
+      "user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:18.561Z",
+      "updated_at": "2026-10-17T18:59:18.561Z"
+    },
+    {
+      "id": "fca4be39-df72-462b-bc05-267475d512f0",
+      "user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:18.561Z",
+      "updated_at": "2026-10-17T18:59:18.561Z"
+    },
+    {
+      "id": "13f3f60a-6859-4308-b940-dc80f5c430f7",
+      "user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:18.561Z",
+      "updated_at": "2026-10-17T18:59:18.561Z"
+    },
+    {
+      "id": "2c127889-7a61-4d5b-9ef2-57efebb39983",
+      "user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:18.561Z",
+      "updated_at": "2026-10-17T18:59:18.561Z"
+    },
+    {
+      "id": "8601d62c-8285-4e32-9b5b-bafc650d3ffe",
+      "user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:52.294Z",
+      "updated_at": "2026-10-17T18:59:52.294Z"
+    },
+    {
+      "id": "a4f989cb-d71a-4bec-93bc-6013bc8ae9c1",
+      "user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:52.294Z",
+      "updated_at": "2026-10-17T18:59:52.294Z"
+    },
+    {
+      "id": "77b84867-8cdc-467c-82b6-5e9e2c4e59a6",
+      "user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:52.294Z",
+      "updated_at": "2026-10-17T18:59:52.294Z"
+    },
+    {
+      "id": "67b346e7-ed62-4f63-b7df-9fa096ca3b53",
+      "user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:52.294Z",
+      "updated_at": "2026-10-17T18:59:52.294Z"
+    },
+    {
+      "id": "0e3789f7-0ac8-4641-80c7-96d69cfe202b",
+      "user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T18:59:52.294Z",
+      "updated_at": "2026-10-17T18:59:52.294Z"
+    },
+    {
+      "id": "986432eb-4549-4a11-be92-3ee1544b9303",
+      "user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:02.845Z",
+      "updated_at": "2026-10-17T19:00:02.845Z"
+    },
+    {
+      "id": "d44c1960-fa13-4d70-abfe-40d827f72809",
+      "user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:02.845Z",
+      "updated_at": "2026-10-17T19:00:02.845Z"
+    },
+    {
+      "id": "293cbaa3-cc73-4215-800c-4071d3cceb9d",
+      "user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:02.845Z",
+      "updated_at": "2026-10-17T19:00:02.845Z"
+    },
+    {
+      "id": "c84d3341-902c-45ae-8e7f-126fd647c218",
+      "user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:02.845Z",
+      "updated_at": "2026-10-17T19:00:02.845Z"
+    },
+    {
+      "id": "0636837f-8af5-4f70-883e-881cceadfa15",
+      "user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:02.845Z",
+      "updated_at": "2026-10-17T19:00:02.845Z"
+    },
+    {
+      "id": "2efb5d74-2c8f-4bfb-9080-c54dfd47dbc6",
+      "user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:03.069Z",
+      "updated_at": "2026-10-17T19:00:03.069Z"
+    },
+    {
+      "id": "92c9e5e4-5318-42b2-9407-8853a1faa8a8",
+      "user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:03.069Z",
+      "updated_at": "2026-10-17T19:00:03.069Z"
+    },
+    {
+      "id": "e36fdf49-715c-45b5-8ca5-a88d054b7364",
+      "user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:03.069Z",
+      "updated_at": "2026-10-17T19:00:03.069Z"
+    },
+    {
+      "id": "430797d2-0b64-4ad8-8523-036ff2754035",
+      "user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:03.069Z",
+      "updated_at": "2026-10-17T19:00:03.069Z"
+    },
+    {
+      "id": "d5e1eb4d-e9ba-4ee7-9093-dac006b4c64f",
+      "user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:03.069Z",
+      "updated_at": "2026-10-17T19:00:03.069Z"
+    },
+    {
+      "id": "58bdb55c-9aeb-4db2-aa9c-e8d5afaac481",
+      "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:06.400Z",
+      "updated_at": "2026-10-17T19:00:06.400Z"
+    },
+    {
+      "id": "ae4bc4ad-dd65-4a72-9295-879601d3837e",
+      "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:06.400Z",
+      "updated_at": "2026-10-17T19:00:06.400Z"
+    },
+    {
+      "id": "05a16409-4292-4a09-8749-8f7a784fe5df",
+      "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:06.400Z",
+      "updated_at": "2026-10-17T19:00:06.400Z"
+    },
+    {
+      "id": "7f923009-d101-44fe-8b59-420a7514cdc8",
+      "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:06.400Z",
+      "updated_at": "2026-10-17T19:00:06.400Z"
+    },
+    {
+      "id": "9481314f-35ca-4cc8-8fd9-bf35911ea8f2",
+      "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:06.400Z",
+      "updated_at": "2026-10-17T19:00:06.400Z"
+    },
+    {
+      "id": "bdd80fd7-8640-436b-8e1c-3ab3451d25ff",
+      "user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:16.440Z",
+      "updated_at": "2026-10-17T19:00:16.440Z"
+    },
+    {
+      "id": "86805599-3e2f-46f8-939c-0cd257d4b624",
+      "user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:16.440Z",
+      "updated_at": "2026-10-17T19:00:16.440Z"
+    },
+    {
+      "id": "99596bdc-2cf0-4bb4-94c1-10013440b9ef",
+      "user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:16.440Z",
+      "updated_at": "2026-10-17T19:00:16.440Z"
+    },
+    {
+      "id": "00e5debd-9007-4737-9f84-750d6d9878f3",
+      "user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:16.440Z",
+      "updated_at": "2026-10-17T19:00:16.440Z"
+    },
+    {
+      "id": "06ad0785-494f-48ff-812f-147cb441e078",
+      "user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:16.440Z",
+      "updated_at": "2026-10-17T19:00:16.440Z"
+    },
+    {
+      "id": "295003b6-dd48-4022-81bb-7eb8ff25b03d",
+      "user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:29.627Z",
+      "updated_at": "2026-10-17T19:00:29.627Z"
+    },
+    {
+      "id": "c2e3a5c5-c0cd-4592-8c7f-c55aedae3333",
+      "user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:29.627Z",
+      "updated_at": "2026-10-17T19:00:29.627Z"
+    },
+    {
+      "id": "7362ce61-2642-436e-a8be-9d3c483683f3",
+      "user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:29.627Z",
+      "updated_at": "2026-10-17T19:00:29.627Z"
+    },
+    {
+      "id": "bda9cd50-bd58-4f13-b0eb-df39d7b54493",
+      "user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:29.627Z",
+      "updated_at": "2026-10-17T19:00:29.627Z"
+    },
+    {
+      "id": "97cb4b8e-5d6f-4b42-8d69-d4824d539845",
+      "user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:00:29.627Z",
+      "updated_at": "2026-10-17T19:00:29.627Z"
+    },
+    {
+      "id": "56bcb617-95d6-4d00-9ef3-9d166fd44d78",
+      "user_id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:06.882Z",
+      "updated_at": "2026-10-17T19:01:06.882Z"
+    },
+    {
+      "id": "d441dad5-b429-42f5-bd14-da13777f3f57",
+      "user_id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:06.882Z",
+      "updated_at": "2026-10-17T19:01:06.882Z"
+    },
+    {
+      "id": "6ed56496-29b9-4225-8702-679472bd39ef",
+      "user_id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:06.882Z",
+      "updated_at": "2026-10-17T19:01:06.882Z"
+    },
+    {
+      "id": "e7be4b28-aa10-4efd-9301-6906273d5dea",
+      "user_id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:06.882Z",
+      "updated_at": "2026-10-17T19:01:06.882Z"
+    },
+    {
+      "id": "85360da2-bc72-4e22-bfd4-bd9e20ada931",
+      "user_id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:06.882Z",
+      "updated_at": "2026-10-17T19:01:06.882Z"
+    },
+    {
+      "id": "ffdbc10f-571d-4b85-b482-635f16095ae8",
+      "user_id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.103Z",
+      "updated_at": "2026-10-17T19:01:07.103Z"
+    },
+    {
+      "id": "a23e2a65-848e-4809-84ba-149bdbd83a13",
+      "user_id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.103Z",
+      "updated_at": "2026-10-17T19:01:07.103Z"
+    },
+    {
+      "id": "4156dfa0-033d-498b-82df-8e3b01f1ce01",
+      "user_id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.103Z",
+      "updated_at": "2026-10-17T19:01:07.103Z"
+    },
+    {
+      "id": "8baff5d1-826f-4fbf-b53a-97cc13c49efa",
+      "user_id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.103Z",
+      "updated_at": "2026-10-17T19:01:07.103Z"
+    },
+    {
+      "id": "f9371dd5-6461-4b0e-afa9-9b4db97e0700",
+      "user_id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.103Z",
+      "updated_at": "2026-10-17T19:01:07.103Z"
+    },
+    {
+      "id": "e824aef0-d48e-4c6a-b392-44a860fce16a",
+      "user_id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.295Z",
+      "updated_at": "2026-10-17T19:01:07.295Z"
+    },
+    {
+      "id": "c8150126-12a9-4b0d-b092-1a13ab29b839",
+      "user_id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.295Z",
+      "updated_at": "2026-10-17T19:01:07.295Z"
+    },
+    {
+      "id": "f15cfe96-30a5-493e-a044-f03bbd12940a",
+      "user_id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.295Z",
+      "updated_at": "2026-10-17T19:01:07.295Z"
+    },
+    {
+      "id": "84ccb247-7a85-479b-b78d-d896eeb61bee",
+      "user_id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.295Z",
+      "updated_at": "2026-10-17T19:01:07.295Z"
+    },
+    {
+      "id": "73fdf3df-4148-4cb8-a3e1-46a9f7f97574",
+      "user_id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.295Z",
+      "updated_at": "2026-10-17T19:01:07.295Z"
+    },
+    {
+      "id": "ee3cbec4-ad77-42bd-ba84-8a51bda2607f",
+      "user_id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.526Z",
+      "updated_at": "2026-10-17T19:01:07.526Z"
+    },
+    {
+      "id": "d44a484d-eee2-47a8-8d04-96e3193d9b8b",
+      "user_id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.526Z",
+      "updated_at": "2026-10-17T19:01:07.526Z"
+    },
+    {
+      "id": "4279ebdb-d857-4905-bf55-7777c6c09a3f",
+      "user_id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.526Z",
+      "updated_at": "2026-10-17T19:01:07.526Z"
+    },
+    {
+      "id": "18142584-d168-47bf-805c-066782146ff4",
+      "user_id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.526Z",
+      "updated_at": "2026-10-17T19:01:07.526Z"
+    },
+    {
+      "id": "2130ad92-4517-4a58-9609-041146eb9184",
+      "user_id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.526Z",
+      "updated_at": "2026-10-17T19:01:07.526Z"
+    },
+    {
+      "id": "17c8c506-8842-44eb-9205-5504301deccc",
+      "user_id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.768Z",
+      "updated_at": "2026-10-17T19:01:07.768Z"
+    },
+    {
+      "id": "052bbbe4-5726-41a2-9409-597a00b3e9a8",
+      "user_id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.768Z",
+      "updated_at": "2026-10-17T19:01:07.768Z"
+    },
+    {
+      "id": "8ba7e2ff-8f5d-465e-b577-f077bf82207f",
+      "user_id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.768Z",
+      "updated_at": "2026-10-17T19:01:07.768Z"
+    },
+    {
+      "id": "c81c222e-754e-4b37-b922-8f955b038c12",
+      "user_id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.768Z",
+      "updated_at": "2026-10-17T19:01:07.768Z"
+    },
+    {
+      "id": "bba5b323-417f-4067-b97a-dabd96888897",
+      "user_id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.768Z",
+      "updated_at": "2026-10-17T19:01:07.768Z"
+    },
+    {
+      "id": "dc4b2e8e-4847-4c73-adfb-8dddc18ebcbb",
+      "user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.981Z",
+      "updated_at": "2026-10-17T19:01:07.981Z"
+    },
+    {
+      "id": "d6627ee5-a1ee-4ce9-aa15-e7a04d83a753",
+      "user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.981Z",
+      "updated_at": "2026-10-17T19:01:07.981Z"
+    },
+    {
+      "id": "78b92e50-4c55-49fc-a769-9d9466c3ade6",
+      "user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.981Z",
+      "updated_at": "2026-10-17T19:01:07.981Z"
+    },
+    {
+      "id": "919be299-4adb-4c75-8350-dbc26f5ce98f",
+      "user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.981Z",
+      "updated_at": "2026-10-17T19:01:07.981Z"
+    },
+    {
+      "id": "316d067b-7620-4545-a3b6-c381c894fdf3",
+      "user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:07.981Z",
+      "updated_at": "2026-10-17T19:01:07.981Z"
+    },
+    {
+      "id": "4809fa83-c65c-4879-b133-2f4585f6b4e4",
+      "user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.754Z",
+      "updated_at": "2026-10-17T19:01:32.754Z"
+    },
+    {
+      "id": "4c86300f-ae8d-4687-8496-0b5e2d7d8b97",
+      "user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.754Z",
+      "updated_at": "2026-10-17T19:01:32.754Z"
+    },
+    {
+      "id": "b2418f9e-0d19-4335-9117-6c1ddbc77809",
+      "user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.754Z",
+      "updated_at": "2026-10-17T19:01:32.754Z"
+    },
+    {
+      "id": "d76f64cd-bede-43be-a44b-29e05e8042d3",
+      "user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.754Z",
+      "updated_at": "2026-10-17T19:01:32.754Z"
+    },
+    {
+      "id": "6f1c7828-a6c8-45a6-9952-5b4b2d743ee7",
+      "user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.754Z",
+      "updated_at": "2026-10-17T19:01:32.754Z"
+    },
+    {
+      "id": "eb118d73-59cf-444d-9256-6cc0fc8aa12d",
+      "user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.986Z",
+      "updated_at": "2026-10-17T19:01:32.986Z"
+    },
+    {
+      "id": "184ebb11-92ac-4145-ac04-5d09ce9a2008",
+      "user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.986Z",
+      "updated_at": "2026-10-17T19:01:32.986Z"
+    },
+    {
+      "id": "3d637600-0d1d-4c73-9354-19512b598a8f",
+      "user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.986Z",
+      "updated_at": "2026-10-17T19:01:32.986Z"
+    },
+    {
+      "id": "cfe30c23-25b0-4a00-a737-407374799dee",
+      "user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.986Z",
+      "updated_at": "2026-10-17T19:01:32.986Z"
+    },
+    {
+      "id": "68945b2d-1a24-46a5-a0fe-32b6f0523862",
+      "user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:32.986Z",
+      "updated_at": "2026-10-17T19:01:32.986Z"
+    },
+    {
+      "id": "2c7dfee5-4b99-4ff7-ac33-d3562fec4d8f",
+      "user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:33.235Z",
+      "updated_at": "2026-10-17T19:01:33.235Z"
+    },
+    {
+      "id": "e52ef3b7-f478-4996-9314-9d8d9be42d16",
+      "user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:33.235Z",
+      "updated_at": "2026-10-17T19:01:33.235Z"
+    },
+    {
+      "id": "168672f2-9be1-4707-a325-71a5a9d59418",
+      "user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:33.235Z",
+      "updated_at": "2026-10-17T19:01:33.235Z"
+    },
+    {
+      "id": "22dcff07-0c20-4520-81bc-49e47e24d625",
+      "user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:33.235Z",
+      "updated_at": "2026-10-17T19:01:33.235Z"
+    },
+    {
+      "id": "c4b63ef1-9e01-4faa-ba98-b23d48b72602",
+      "user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:01:33.235Z",
+      "updated_at": "2026-10-17T19:01:33.235Z"
+    },
+    {
+      "id": "613dd974-ecc3-4d99-9dea-f0e849d19e9a",
+      "user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:32:28.933Z",
+      "updated_at": "2026-10-17T19:32:28.933Z"
+    },
+    {
+      "id": "17e97be3-3bc9-4e95-9123-85e0c8155115",
+      "user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:32:28.933Z",
+      "updated_at": "2026-10-17T19:32:28.933Z"
+    },
+    {
+      "id": "17759bfb-4df8-41b8-9085-ef851f5e0f5b",
+      "user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:32:28.933Z",
+      "updated_at": "2026-10-17T19:32:28.933Z"
+    },
+    {
+      "id": "9bb9df33-93f1-40ad-8e62-20091d305be3",
+      "user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:32:28.933Z",
+      "updated_at": "2026-10-17T19:32:28.933Z"
+    },
+    {
+      "id": "a0fd0039-101b-4987-a5bb-d9d416831134",
+      "user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:32:28.933Z",
+      "updated_at": "2026-10-17T19:32:28.933Z"
+    },
+    {
+      "id": "28b68a8b-6b13-41d2-b20e-bda8a78c825e",
+      "user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:08.906Z",
+      "updated_at": "2026-10-17T19:33:08.906Z"
+    },
+    {
+      "id": "841763e6-e40d-4ef9-bb89-d4f36626031f",
+      "user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:08.906Z",
+      "updated_at": "2026-10-17T19:33:08.906Z"
+    },
+    {
+      "id": "36cc4dc0-fc46-41fe-bfa0-d18172eef440",
+      "user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:08.906Z",
+      "updated_at": "2026-10-17T19:33:08.906Z"
+    },
+    {
+      "id": "9c8af26e-685c-4d67-949e-f857fded6f3f",
+      "user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:08.906Z",
+      "updated_at": "2026-10-17T19:33:08.906Z"
+    },
+    {
+      "id": "240b850d-3a73-406e-941d-3d7b4b885ad7",
+      "user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:08.906Z",
+      "updated_at": "2026-10-17T19:33:08.906Z"
+    },
+    {
+      "id": "23a1de1b-e504-4940-a4d8-ff4400a907a1",
+      "user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:09.001Z",
+      "updated_at": "2026-10-17T19:33:09.001Z"
+    },
+    {
+      "id": "bf0482c3-b3f4-4499-afc5-60abee9bc9dc",
+      "user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:09.001Z",
+      "updated_at": "2026-10-17T19:33:09.001Z"
+    },
+    {
+      "id": "0f4c211a-3705-4ffc-a9c2-fbd0d4c9395c",
+      "user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:09.001Z",
+      "updated_at": "2026-10-17T19:33:09.001Z"
+    },
+    {
+      "id": "c7506253-1bda-44cf-a64b-1282036e286a",
+      "user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:09.001Z",
+      "updated_at": "2026-10-17T19:33:09.001Z"
+    },
+    {
+      "id": "1cdea598-cca5-4090-ac1a-f5fb1c56b803",
+      "user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:09.001Z",
+      "updated_at": "2026-10-17T19:33:09.001Z"
+    },
+    {
+      "id": "558c4d56-08e2-4959-9ce2-bab69db743e6",
+      "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:11.003Z",
+      "updated_at": "2026-10-17T19:33:11.003Z"
+    },
+    {
+      "id": "3a7f0847-9e24-4ba7-a695-1ddfda903a82",
+      "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:11.003Z",
+      "updated_at": "2026-10-17T19:33:11.003Z"
+    },
+    {
+      "id": "eb6a8b8a-68d3-46d2-9667-b92cce6eab6e",
+      "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:11.003Z",
+      "updated_at": "2026-10-17T19:33:11.003Z"
+    },
+    {
+      "id": "a9fac731-4793-4262-a2ca-3a6403fd4dc0",
+      "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:11.003Z",
+      "updated_at": "2026-10-17T19:33:11.003Z"
+    },
+    {
+      "id": "ef8c8d82-fd53-4533-a506-8ea8ceed23b9",
+      "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:11.003Z",
+      "updated_at": "2026-10-17T19:33:11.003Z"
+    },
+    {
+      "id": "e091af49-44ba-44bd-9571-9d45d16f08ff",
+      "user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:19.444Z",
+      "updated_at": "2026-10-17T19:33:19.444Z"
+    },
+    {
+      "id": "c69a64a6-ebd2-4915-a087-2e7178ea6dfa",
+      "user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:19.444Z",
+      "updated_at": "2026-10-17T19:33:19.444Z"
+    },
+    {
+      "id": "92697851-24e9-4c09-9bc4-b5256499ccde",
+      "user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:19.444Z",
+      "updated_at": "2026-10-17T19:33:19.444Z"
+    },
+    {
+      "id": "229b50bf-3316-4710-b91e-66947757aebe",
+      "user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:19.444Z",
+      "updated_at": "2026-10-17T19:33:19.444Z"
+    },
+    {
+      "id": "d1358e86-97f9-4ce6-a295-d3db5a7011a1",
+      "user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:33:19.444Z",
+      "updated_at": "2026-10-17T19:33:19.444Z"
+    },
+    {
+      "id": "8a31f40c-caed-41a2-a3e6-6fda746ddc13",
+      "user_id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍔",
+      "color": "#F97316",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:34:53.670Z",
+      "updated_at": "2026-10-17T19:34:53.670Z"
+    },
+    {
+      "id": "54b5b7ad-bbae-4316-91c7-48237d72b375",
+      "user_id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#3B82F6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:34:53.670Z",
+      "updated_at": "2026-10-17T19:34:53.670Z"
+    },
+    {
+      "id": "99ef0e89-efa6-4ff0-a0cd-34010430e4fd",
+      "user_id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "⚡",
+      "color": "#EF4444",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:34:53.670Z",
+      "updated_at": "2026-10-17T19:34:53.670Z"
+    },
+    {
+      "id": "0cb8012a-3f31-4047-8363-3ef930fd48e3",
+      "user_id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+      "name": "Belanja",
+      "type": "expense",
+      "emoji": "🛍️",
+      "color": "#8B5CF6",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:34:53.670Z",
+      "updated_at": "2026-10-17T19:34:53.670Z"
+    },
+    {
+      "id": "4452fcb4-ca50-4ca5-a541-cbee5750e4d6",
+      "user_id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#10B981",
+      "budget_amount": 0,
+      "is_system": true,
+      "created_at": "2026-10-17T19:34:53.670Z",
+      "updated_at": "2026-10-17T19:34:53.670Z"
     }
   ],
   "transactions": [
@@ -42628,6 +44370,186 @@
       "is_multi_item": false,
       "created_at": "2026-10-17T18:37:35.242Z",
       "updated_at": "2026-10-17T18:37:35.242Z"
+    },
+    {
+      "id": "94f2340c-2516-4c99-85a0-f1162133231a",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "wallet_id": "94c4c2c7-f9c0-4e95-9ffb-abb7febccc6a",
+      "destination_wallet_id": null,
+      "category_id": "cat-makan",
+      "amount": 35000,
+      "type": "expense",
+      "date": "2026-10-18",
+      "time": "01.59 WIB",
+      "notes": "Beli makan malam 35000 pakai Dompet Khusus OQRETY",
+      "source": "tata_ai",
+      "idempotency_key": null,
+      "telegram_message_id": null,
+      "raw_input": null,
+      "receipt_image_url": null,
+      "is_multi_item": false,
+      "created_at": "2026-10-17T18:59:03.640Z",
+      "updated_at": "2026-10-17T18:59:03.640Z"
+    },
+    {
+      "id": "3b1262d3-3654-483a-8982-871ddc4a82e1",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "wallet_id": "w-admin-bca",
+      "destination_wallet_id": null,
+      "category_id": "cat-gaji",
+      "amount": 5000000,
+      "type": "income",
+      "date": "2026-10-18",
+      "time": "01.59 WIB",
+      "notes": "Gajian 5 juta",
+      "source": "tata_ai",
+      "idempotency_key": null,
+      "telegram_message_id": null,
+      "raw_input": null,
+      "receipt_image_url": null,
+      "is_multi_item": false,
+      "created_at": "2026-10-17T18:59:41.771Z",
+      "updated_at": "2026-10-17T18:59:41.771Z"
+    },
+    {
+      "id": "fbbf034e-3945-48f5-ac80-d87b62f4fe33",
+      "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "wallet_id": "20492713-a396-4384-82ff-25c9eacbab2a",
+      "destination_wallet_id": null,
+      "category_id": null,
+      "amount": 7500000,
+      "type": "income",
+      "date": "2026-10-17",
+      "time": "02:00",
+      "notes": "Gaji Pertama PT Mandiri Jaya",
+      "source": "web",
+      "idempotency_key": null,
+      "telegram_message_id": null,
+      "raw_input": null,
+      "receipt_image_url": null,
+      "is_multi_item": false,
+      "created_at": "2026-10-17T19:00:16.086Z",
+      "updated_at": "2026-10-17T19:00:16.086Z"
+    },
+    {
+      "id": "4095d47e-f1a4-4da2-818c-0fe7a0bc79aa",
+      "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "wallet_id": "20492713-a396-4384-82ff-25c9eacbab2a",
+      "destination_wallet_id": null,
+      "category_id": null,
+      "amount": 350000,
+      "type": "expense",
+      "date": "2026-10-17",
+      "time": "02:00",
+      "notes": "Belanja Sembako Mingguan",
+      "source": "web",
+      "idempotency_key": null,
+      "telegram_message_id": null,
+      "raw_input": null,
+      "receipt_image_url": null,
+      "is_multi_item": false,
+      "created_at": "2026-10-17T19:00:16.248Z",
+      "updated_at": "2026-10-17T19:00:16.248Z"
+    },
+    {
+      "id": "60ada82b-850f-41c6-ba28-0caf19773bc1",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "wallet_id": "77f097a2-7462-4e56-9e85-cf25dcfe959c",
+      "destination_wallet_id": null,
+      "category_id": "cat-makan",
+      "amount": 35000,
+      "type": "expense",
+      "date": "2026-10-18",
+      "time": "02.32 WIB",
+      "notes": "Beli makan malam 35000 pakai Dompet Khusus DMSYAV",
+      "source": "tata_ai",
+      "idempotency_key": null,
+      "telegram_message_id": null,
+      "raw_input": null,
+      "receipt_image_url": null,
+      "is_multi_item": false,
+      "created_at": "2026-10-17T19:32:14.235Z",
+      "updated_at": "2026-10-17T19:32:14.235Z"
+    },
+    {
+      "id": "7f291656-f8a1-4ade-b4c7-bbe475d6ac57",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "wallet_id": "w-admin-bca",
+      "destination_wallet_id": null,
+      "category_id": "cat-gaji",
+      "amount": 5000000,
+      "type": "income",
+      "date": "2026-10-18",
+      "time": "02.32 WIB",
+      "notes": "Gajian 5 juta",
+      "source": "tata_ai",
+      "idempotency_key": null,
+      "telegram_message_id": null,
+      "raw_input": null,
+      "receipt_image_url": null,
+      "is_multi_item": false,
+      "created_at": "2026-10-17T19:32:51.540Z",
+      "updated_at": "2026-10-17T19:32:51.540Z"
+    },
+    {
+      "id": "fca50c78-6b5e-4d14-a3a7-14f54ddc311d",
+      "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "wallet_id": "3a320797-1145-4f72-aeb0-2c943a6608c3",
+      "destination_wallet_id": null,
+      "category_id": null,
+      "amount": 7500000,
+      "type": "income",
+      "date": "2026-10-17",
+      "time": "02:33",
+      "notes": "Gaji Pertama PT Mandiri Jaya",
+      "source": "web",
+      "idempotency_key": null,
+      "telegram_message_id": null,
+      "raw_input": null,
+      "receipt_image_url": null,
+      "is_multi_item": false,
+      "created_at": "2026-10-17T19:33:19.251Z",
+      "updated_at": "2026-10-17T19:33:19.251Z"
+    },
+    {
+      "id": "7daf764f-98d2-4253-9a65-42315139e812",
+      "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "wallet_id": "3a320797-1145-4f72-aeb0-2c943a6608c3",
+      "destination_wallet_id": null,
+      "category_id": null,
+      "amount": 350000,
+      "type": "expense",
+      "date": "2026-10-17",
+      "time": "02:33",
+      "notes": "Belanja Sembako Mingguan",
+      "source": "web",
+      "idempotency_key": null,
+      "telegram_message_id": null,
+      "raw_input": null,
+      "receipt_image_url": null,
+      "is_multi_item": false,
+      "created_at": "2026-10-17T19:33:19.310Z",
+      "updated_at": "2026-10-17T19:33:19.310Z"
+    },
+    {
+      "id": "eb622a71-d643-4b21-913c-e95c5ddc639e",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "wallet_id": "0592d0a8-a91f-4dcc-a41e-0c3497629fb1",
+      "destination_wallet_id": null,
+      "category_id": "cat-makan",
+      "amount": 35000,
+      "type": "expense",
+      "date": "2026-10-18",
+      "time": "02.34 WIB",
+      "notes": "Beli makan malam 35000 pakai Dompet Khusus JSAZYI",
+      "source": "tata_ai",
+      "idempotency_key": null,
+      "telegram_message_id": null,
+      "raw_input": null,
+      "receipt_image_url": null,
+      "is_multi_item": false,
+      "created_at": "2026-10-17T19:34:38.957Z",
+      "updated_at": "2026-10-17T19:34:38.957Z"
     }
   ],
   "budgets": [
@@ -65441,6 +67363,1025 @@
         "ip": "localhost"
       },
       "created_at": "2026-10-17T18:57:39.322Z"
+    },
+    {
+      "id": "51c48a00-b364-4f58-b437-f93d0320f1e6",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T18:58:48.015Z"
+    },
+    {
+      "id": "2c97dcb7-e83a-4b45-9511-82e75a1c5dff",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+      "reason": "Pendaftaran pengguna baru: Pilot User E2E (pilot.1792263511996.34@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+        "email": "pilot.1792263511996.34@tatadana.id",
+        "phone": "+6281255644296"
+      },
+      "created_at": "2026-10-17T18:59:18.598Z"
+    },
+    {
+      "id": "ee33e962-2377-49f4-a4b3-fb8e6206aa83",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Pilot User E2E (pilot.1792263511996.34@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+        "timestamp": "2026-10-17T18:59:18.643Z"
+      },
+      "created_at": "2026-10-17T18:59:18.645Z"
+    },
+    {
+      "id": "5d270493-e7d1-4959-9838-17f65db777a1",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T18:59:19.448Z"
+    },
+    {
+      "id": "9647002c-18ba-4b14-ba4d-3efe125828ab",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "7dc2c4ab-29c6-433d-917a-11d31129ff43",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T18:59:27.193Z"
+    },
+    {
+      "id": "63848f97-f68d-4a3d-8077-09a80bca76b5",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+      "reason": "Pendaftaran pengguna baru: Normal User ZeroTrust (user.test.1792263512092@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+        "email": "user.test.1792263512092@tatadana.id",
+        "phone": "+6281364454976"
+      },
+      "created_at": "2026-10-17T18:59:52.317Z"
+    },
+    {
+      "id": "86bd9a6e-84f5-4da2-b717-c66cb9fe0211",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Normal User ZeroTrust (user.test.1792263512092@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+        "timestamp": "2026-10-17T18:59:52.353Z"
+      },
+      "created_at": "2026-10-17T18:59:52.354Z"
+    },
+    {
+      "id": "770fe6be-7fad-4ac7-b680-8eebb9e4c0d3",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T18:59:52.508Z"
+    },
+    {
+      "id": "22aa1717-d8f7-4a49-9919-8c1e6491f0de",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "54fdd0e6-5bf7-4887-b1df-8e81893b86a8",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T18:59:52.616Z"
+    },
+    {
+      "id": "b9b8f1ef-4820-4abd-8763-9010a9be65ab",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T18:59:55.394Z"
+    },
+    {
+      "id": "322f3e76-f22b-4da7-92d0-e42b32da6963",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+      "reason": "Pendaftaran pengguna baru: Avatar User A (user.avatar.a.1792263602699@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+        "email": "user.avatar.a.1792263602699@tatadana.id",
+        "phone": "+6281896677822"
+      },
+      "created_at": "2026-10-17T19:00:02.871Z"
+    },
+    {
+      "id": "ba0b6c51-c441-4273-a316-7101101882cd",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Avatar User A (user.avatar.a.1792263602699@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+        "timestamp": "2026-10-17T19:00:02.908Z"
+      },
+      "created_at": "2026-10-17T19:00:02.909Z"
+    },
+    {
+      "id": "aef86961-d9b7-40bd-8379-ed7e1fdf6c1c",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+      "reason": "Pendaftaran pengguna baru: Avatar User B (user.avatar.b.1792263602699@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+        "email": "user.avatar.b.1792263602699@tatadana.id",
+        "phone": "+6281946363265"
+      },
+      "created_at": "2026-10-17T19:00:03.092Z"
+    },
+    {
+      "id": "5b3b7873-f03a-422a-a4b4-abb0f15fb7df",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Avatar User B (user.avatar.b.1792263602699@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+        "timestamp": "2026-10-17T19:00:03.118Z"
+      },
+      "created_at": "2026-10-17T19:00:03.118Z"
+    },
+    {
+      "id": "46a0f9c3-c485-4da4-84b7-160185e65eb5",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:00:03.342Z"
+    },
+    {
+      "id": "8766427e-e540-429f-83e7-ae5151c75acf",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "f476345b-38f4-4455-b23e-c2dd22ebae28",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:00:03.448Z"
+    },
+    {
+      "id": "c9f081c3-6cba-49ab-bd31-8ff2e1b3d492",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "d40957c4-3517-4df3-9657-3b4fcbd08808",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:00:03.597Z"
+    },
+    {
+      "id": "76f6ab2d-b232-4ede-8eec-50084a783f9e",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "reason": "Pendaftaran pengguna baru: Sobat Bersih Satu (clean.user1.1792263512274@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+        "email": "clean.user1.1792263512274@tatadana.id",
+        "phone": "+6281263512274"
+      },
+      "created_at": "2026-10-17T19:00:06.438Z"
+    },
+    {
+      "id": "970887a6-4e25-4640-93a0-1a319077d9bb",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Sobat Bersih Satu (clean.user1.1792263512274@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+        "timestamp": "2026-10-17T19:00:06.468Z"
+      },
+      "created_at": "2026-10-17T19:00:06.469Z"
+    },
+    {
+      "id": "099cf759-63bb-4b29-adbc-1a3eec88701b",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:00:06.657Z"
+    },
+    {
+      "id": "e5366dbf-927b-420c-87ec-0823e6ed2364",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "c4a998ae-61e1-4b22-be44-69d335b2bd23",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:00:06.767Z"
+    },
+    {
+      "id": "0b4088e2-3ba2-4e7b-9595-42afca40ef6d",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+      "reason": "Pendaftaran pengguna baru: Sobat Bersih Dua (clean.user2.1792263616344_76402@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+        "email": "clean.user2.1792263616344_76402@tatadana.id",
+        "phone": "+6281961594460"
+      },
+      "created_at": "2026-10-17T19:00:16.463Z"
+    },
+    {
+      "id": "f8d18d88-674e-4d1a-84c9-da8765bdcfd3",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Sobat Bersih Dua (clean.user2.1792263616344_76402@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+        "timestamp": "2026-10-17T19:00:16.496Z"
+      },
+      "created_at": "2026-10-17T19:00:16.497Z"
+    },
+    {
+      "id": "ea7c7693-c509-4e0c-b1d3-79741ee4bd49",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:00:16.649Z"
+    },
+    {
+      "id": "94a55d33-4e17-4e41-9c98-1a31d1d294e9",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "4acfcd64-08e7-4ccb-9665-0ba6d58f8ff0",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:00:16.787Z"
+    },
+    {
+      "id": "eacaec1c-67d2-40b3-891a-08f3189bc40b",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+      "reason": "Pendaftaran pengguna baru: Adversarial Verifier (adversarial.user.1792263629467@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+        "email": "adversarial.user.1792263629467@tatadana.id",
+        "phone": "+6281725891564"
+      },
+      "created_at": "2026-10-17T19:00:29.652Z"
+    },
+    {
+      "id": "508ce19b-9595-44af-96ec-7e3508ab3794",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Adversarial Verifier (adversarial.user.1792263629467@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+        "timestamp": "2026-10-17T19:00:29.682Z"
+      },
+      "created_at": "2026-10-17T19:00:29.683Z"
+    },
+    {
+      "id": "b90db138-57c4-4e90-b594-b9fec6d162d6",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:00:29.824Z"
+    },
+    {
+      "id": "518615b2-70fc-471f-a952-d654e16db7fa",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "3d3044ee-68cd-4144-9d4b-bbad378cc1d3",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:00:29.955Z"
+    },
+    {
+      "id": "0cbde751-47bd-497a-91cc-80d2adf0c217",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:01:06.500Z"
+    },
+    {
+      "id": "5568e511-5004-42e8-bf19-58a0e54fb41a",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+      "reason": "Pendaftaran pengguna baru: Role Attack admin (mal.role.128x2i@example.com) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+        "email": "mal.role.128x2i@example.com",
+        "phone": "+6281977332563"
+      },
+      "created_at": "2026-10-17T19:01:06.907Z"
+    },
+    {
+      "id": "3f443564-d6dc-4023-8d62-1dc0baf12d0f",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Role Attack admin (mal.role.128x2i@example.com) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "e10ab041-7feb-4e5a-9f9e-773dd8f3231b",
+        "timestamp": "2026-10-17T19:01:06.945Z"
+      },
+      "created_at": "2026-10-17T19:01:06.946Z"
+    },
+    {
+      "id": "5ecbb06c-202b-4125-897c-e3522b3e7985",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+      "reason": "Pendaftaran pengguna baru: Role Attack superadmin (mal.role.tbsd5n@example.com) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+        "email": "mal.role.tbsd5n@example.com",
+        "phone": "+6281966130115"
+      },
+      "created_at": "2026-10-17T19:01:07.129Z"
+    },
+    {
+      "id": "a99e07fe-0d82-4e78-b102-721014663da1",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Role Attack superadmin (mal.role.tbsd5n@example.com) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "17d240c1-0a17-437c-9361-ffe0f25d8681",
+        "timestamp": "2026-10-17T19:01:07.156Z"
+      },
+      "created_at": "2026-10-17T19:01:07.156Z"
+    },
+    {
+      "id": "5241b9a5-71d0-4d7f-91ea-8e2890882145",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+      "reason": "Pendaftaran pengguna baru: Role Attack ADMIN (mal.role.g7es8g@example.com) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+        "email": "mal.role.g7es8g@example.com",
+        "phone": "+6281981203842"
+      },
+      "created_at": "2026-10-17T19:01:07.322Z"
+    },
+    {
+      "id": "d26b5ca0-c3c9-4498-a602-a124adcd4d87",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Role Attack ADMIN (mal.role.g7es8g@example.com) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "ef79adbf-1f45-41d9-bd73-eb364e4356ac",
+        "timestamp": "2026-10-17T19:01:07.354Z"
+      },
+      "created_at": "2026-10-17T19:01:07.356Z"
+    },
+    {
+      "id": "ee5f80a4-5061-4099-877e-cdd809e41c91",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+      "reason": "Pendaftaran pengguna baru: Role Attack root (mal.role.2j13sk@example.com) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+        "email": "mal.role.2j13sk@example.com",
+        "phone": "+6281912643186"
+      },
+      "created_at": "2026-10-17T19:01:07.554Z"
+    },
+    {
+      "id": "a081c3ed-f41a-4b18-bc59-fed6a77130ec",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Role Attack root (mal.role.2j13sk@example.com) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "94780fbf-77dd-45c3-a5b8-f73d3444412d",
+        "timestamp": "2026-10-17T19:01:07.595Z"
+      },
+      "created_at": "2026-10-17T19:01:07.596Z"
+    },
+    {
+      "id": "6774b567-b5d5-4215-8520-69ee201ac089",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+      "reason": "Pendaftaran pengguna baru: Role Attack administrator (mal.role.0w13mr@example.com) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+        "email": "mal.role.0w13mr@example.com",
+        "phone": "+6281930202776"
+      },
+      "created_at": "2026-10-17T19:01:07.791Z"
+    },
+    {
+      "id": "0c10ef14-7bb3-4500-88f2-1d8205d60d42",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Role Attack administrator (mal.role.0w13mr@example.com) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "7ff7f7ab-5745-48ce-af30-de0a273ed47e",
+        "timestamp": "2026-10-17T19:01:07.814Z"
+      },
+      "created_at": "2026-10-17T19:01:07.815Z"
+    },
+    {
+      "id": "2a2cf914-a4a7-4719-9bf2-38a26dc624fe",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "reason": "Pendaftaran pengguna baru: Adversarial Verification User (adv.user.1792263666300@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+        "email": "adv.user.1792263666300@tatadana.id",
+        "phone": "+6281545822997"
+      },
+      "created_at": "2026-10-17T19:01:08.008Z"
+    },
+    {
+      "id": "857e3200-de06-43f7-a04f-2a5fdaf19ea6",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Adversarial Verification User (adv.user.1792263666300@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+        "timestamp": "2026-10-17T19:01:08.036Z"
+      },
+      "created_at": "2026-10-17T19:01:08.036Z"
+    },
+    {
+      "id": "57d5515f-d096-456d-9953-e0b7c401fae7",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:01:08.412Z"
+    },
+    {
+      "id": "c7d91cd7-ce2c-4bf0-a29c-e6ed57709949",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "d856e5d3-3f6c-4c29-bc99-bb09e2c156f4",
+      "reason": "Admin updated user attributes: {}",
+      "metadata": {},
+      "created_at": "2026-10-17T19:01:15.227Z"
+    },
+    {
+      "id": "94b8cba7-84f2-4f58-a257-1457b7fcb183",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:01:21.792Z"
+    },
+    {
+      "id": "3677a9cf-e1e6-4fac-8c91-2b0aa1714d1b",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+      "reason": "Pendaftaran pengguna baru: Stress Attacker User A (adv.stress.a.1792263692591@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+        "email": "adv.stress.a.1792263692591@tatadana.id",
+        "phone": "+6281165622915"
+      },
+      "created_at": "2026-10-17T19:01:32.787Z"
+    },
+    {
+      "id": "5915f7c3-1dc4-4936-93d9-952eaab07ff5",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Stress Attacker User A (adv.stress.a.1792263692591@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+        "timestamp": "2026-10-17T19:01:32.830Z"
+      },
+      "created_at": "2026-10-17T19:01:32.831Z"
+    },
+    {
+      "id": "365add1f-d2c8-47ba-91f4-529ac382810e",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+      "reason": "Pendaftaran pengguna baru: Stress Target User B (adv.stress.b.1792263692591@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+        "email": "adv.stress.b.1792263692591@tatadana.id",
+        "phone": "+6281277420221"
+      },
+      "created_at": "2026-10-17T19:01:33.009Z"
+    },
+    {
+      "id": "b6d9768a-3099-4300-8ba7-05fa1452317d",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Stress Target User B (adv.stress.b.1792263692591@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+        "timestamp": "2026-10-17T19:01:33.053Z"
+      },
+      "created_at": "2026-10-17T19:01:33.054Z"
+    },
+    {
+      "id": "f9f1a4b0-383d-4c58-b2d2-d5e33bb287c3",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+      "reason": "Pendaftaran pengguna baru: Stress Lifecycle User C (adv.stress.c.1792263692591@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+        "email": "adv.stress.c.1792263692591@tatadana.id",
+        "phone": "+6281359536931"
+      },
+      "created_at": "2026-10-17T19:01:33.263Z"
+    },
+    {
+      "id": "70741e23-63c7-4ba9-9b92-3b64a935c074",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Stress Lifecycle User C (adv.stress.c.1792263692591@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+        "timestamp": "2026-10-17T19:01:33.302Z"
+      },
+      "created_at": "2026-10-17T19:01:33.303Z"
+    },
+    {
+      "id": "042da90a-a2f3-4038-8afc-b01c45ef32f0",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:01:33.517Z"
+    },
+    {
+      "id": "fc42ac8d-6a4b-4d97-8aa8-7fc2362c26cb",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "05eaa93a-5bd1-4ca5-9313-e6c9a719b955",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:01:33.633Z"
+    },
+    {
+      "id": "28a3d543-b6ba-45dc-86b0-fb3fccb17eb8",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "b92a303f-617e-43ed-955f-35e91cbb1850",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:01:33.749Z"
+    },
+    {
+      "id": "7973ad02-cabd-4804-af0f-d5dc3e9b0105",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "135be858-4426-4a99-a4f7-a40308a36d93",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:01:33.859Z"
+    },
+    {
+      "id": "b2902eac-a66a-4922-963a-aae3c862931f",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:07:16.466Z"
+    },
+    {
+      "id": "0608d570-7ee1-4abe-8253-0655873fe3e2",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:31:59.171Z"
+    },
+    {
+      "id": "a6fed0ae-dc32-4542-9d22-7d7c8bab50c3",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+      "reason": "Pendaftaran pengguna baru: Pilot User E2E (pilot.1792265507725.881@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+        "email": "pilot.1792265507725.881@tatadana.id",
+        "phone": "+6281240162193"
+      },
+      "created_at": "2026-10-17T19:32:28.952Z"
+    },
+    {
+      "id": "8d55265b-6583-4002-96df-0095292098ac",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Pilot User E2E (pilot.1792265507725.881@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+        "timestamp": "2026-10-17T19:32:28.967Z"
+      },
+      "created_at": "2026-10-17T19:32:28.967Z"
+    },
+    {
+      "id": "7dfea94e-4fbc-4b1e-9cd3-d14f15d32585",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:32:29.642Z"
+    },
+    {
+      "id": "51a0b66f-b993-4acd-a690-98de96e62a50",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "2ce97810-07ba-4e9a-a4a1-169b4bfef069",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:32:37.225Z"
+    },
+    {
+      "id": "3787d408-6458-41b8-907e-4942e91cb549",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:33:08.202Z"
+    },
+    {
+      "id": "8bc91bf8-b894-4732-942f-b1a1a903e844",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+      "reason": "Pendaftaran pengguna baru: Avatar User A (user.avatar.a.1792265588847@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+        "email": "user.avatar.a.1792265588847@tatadana.id",
+        "phone": "+6281855980579"
+      },
+      "created_at": "2026-10-17T19:33:08.920Z"
+    },
+    {
+      "id": "54d6d206-6839-470a-b024-6a061b508efb",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Avatar User A (user.avatar.a.1792265588847@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+        "timestamp": "2026-10-17T19:33:08.935Z"
+      },
+      "created_at": "2026-10-17T19:33:08.935Z"
+    },
+    {
+      "id": "95fc9ba2-f82c-4166-8633-48f5984fe6a5",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+      "reason": "Pendaftaran pengguna baru: Avatar User B (user.avatar.b.1792265588847@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+        "email": "user.avatar.b.1792265588847@tatadana.id",
+        "phone": "+6281971721898"
+      },
+      "created_at": "2026-10-17T19:33:09.013Z"
+    },
+    {
+      "id": "01ee0ba9-6742-4b3c-b80a-2f2163da0e57",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Avatar User B (user.avatar.b.1792265588847@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+        "timestamp": "2026-10-17T19:33:09.024Z"
+      },
+      "created_at": "2026-10-17T19:33:09.024Z"
+    },
+    {
+      "id": "12326b2b-2369-4b84-9d24-ef86b4d4e096",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:33:09.090Z"
+    },
+    {
+      "id": "0538969f-208d-42ba-8974-49e139232555",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "5df6114c-2a51-4a63-991e-91e03d8aef5d",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:33:09.178Z"
+    },
+    {
+      "id": "f25c784d-01f0-4c24-b4ad-183ef3f69399",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "ad2c2dd4-d30f-4319-92e9-32e52598291e",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:33:09.245Z"
+    },
+    {
+      "id": "a5b10dd6-3258-421e-89aa-248870895cdd",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "reason": "Pendaftaran pengguna baru: Sobat Bersih Satu (clean.user1.1792265507878@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+        "email": "clean.user1.1792265507878@tatadana.id",
+        "phone": "+6281265507878"
+      },
+      "created_at": "2026-10-17T19:33:11.014Z"
+    },
+    {
+      "id": "aeaa5655-cec9-47df-b15a-b4e56ac724b8",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Sobat Bersih Satu (clean.user1.1792265507878@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+        "timestamp": "2026-10-17T19:33:11.026Z"
+      },
+      "created_at": "2026-10-17T19:33:11.027Z"
+    },
+    {
+      "id": "d3f3e118-6055-4f60-a9eb-225dc192a95f",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:33:11.116Z"
+    },
+    {
+      "id": "82209038-8a9d-4168-bb23-02bedb85ad10",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "eb1d3561-faef-482f-b10e-46eb147e1ae4",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:33:11.180Z"
+    },
+    {
+      "id": "410dbabc-1382-4a98-ab66-db5cded96463",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+      "reason": "Pendaftaran pengguna baru: Sobat Bersih Dua (clean.user2.1792265599366_66849@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+        "email": "clean.user2.1792265599366_66849@tatadana.id",
+        "phone": "+6281937603908"
+      },
+      "created_at": "2026-10-17T19:33:19.459Z"
+    },
+    {
+      "id": "fe4b556c-72e5-4b59-bacc-b0233f33aca5",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Sobat Bersih Dua (clean.user2.1792265599366_66849@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+        "timestamp": "2026-10-17T19:33:19.475Z"
+      },
+      "created_at": "2026-10-17T19:33:19.475Z"
+    },
+    {
+      "id": "3d3a642e-b4da-4c35-80e7-57be3354a549",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:33:19.570Z"
+    },
+    {
+      "id": "6111714e-7a55-4350-9296-bf351224f8fe",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_update",
+      "target_user_id": "ca3e1d15-2548-437a-80f1-cef2b9659968",
+      "reason": "Admin updated user attributes: {\"status\":\"active\"}",
+      "metadata": {
+        "status": "active"
+      },
+      "created_at": "2026-10-17T19:33:19.637Z"
+    },
+    {
+      "id": "96731a7d-5495-4622-9bfd-451e342a050e",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:34:24.024Z"
+    },
+    {
+      "id": "23b160c2-f78e-4d63-bbc7-bbc7f0f08b38",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "user_register_pending",
+      "target_user_id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+      "reason": "Pendaftaran pengguna baru: Pilot User E2E (pilot.1792265654889.711@tatadana.id) menunggu persetujuan admin.",
+      "metadata": {
+        "user_id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+        "email": "pilot.1792265654889.711@tatadana.id",
+        "phone": "+6281231462269"
+      },
+      "created_at": "2026-10-17T19:34:53.685Z"
+    },
+    {
+      "id": "209f6bca-88ce-4630-b262-99887b696941",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "whatsapp_notification_dispatch",
+      "target_user_id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+      "reason": "Notifikasi persetujuan pendaftaran untuk Pilot User E2E (pilot.1792265654889.711@tatadana.id) ditargetkan ke 081460932853",
+      "metadata": {
+        "target_phone": "+6281460932853",
+        "configured": false,
+        "user_id": "b79da89f-4624-4bf6-8c72-b4379532248b",
+        "timestamp": "2026-10-17T19:34:53.703Z"
+      },
+      "created_at": "2026-10-17T19:34:53.704Z"
+    },
+    {
+      "id": "acbd3bde-278f-4ed4-ba8e-e554fa7c28e5",
+      "admin_id": "00000000-0000-0000-0000-000000000001",
+      "action": "admin_login_success",
+      "target_user_id": "00000000-0000-0000-0000-000000000001",
+      "reason": "Administrator resmi berhasil login ke portal admin",
+      "metadata": {
+        "admin_email": "wildanakmalfathan@gmail.com",
+        "ip": "::1"
+      },
+      "created_at": "2026-10-17T19:34:54.565Z"
     }
   ],
   "payment_transactions": []

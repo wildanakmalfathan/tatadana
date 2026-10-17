@@ -444,3 +444,58 @@ Integrity mode: development
 - [ ] Halaman `/dashboard/budget` menampilkan progress bar pengeluaran untuk periode Harian, Mingguan, dan Bulanan.
 - [ ] Tata AI Bot dan Telegram Bot terhubung dengan saldo pengguna dan merespons interaksi tanpa hambatan.
 - [ ] Tidak ada error console, tidak ada data rusak/debug, dan seluruh suite pengujian otomatis lulus 100%.
+
+
+## 2026-10-17T19:27:14Z
+
+# Teamwork Project Prompt — Draft
+
+> Status: Launched
+> Goal: Vercel Hosting & Supabase Database Migration with Zero Feature Breakage
+> Requested team: Gunakan 5 Agent sekaligus dan periksa kembali sebelum dikirim ke saya!
+
+Migrasi sistem penyimpanan TataDana dari file lokal (`data/tatadana-db.json`) ke database cloud Supabase PostgreSQL, konfigurasi penyimpanan aset foto profil ke Supabase Storage, penyesuaian endpoint agar kompatibel penuh dengan lingkungan serverless Vercel, serta verifikasi kelulusan build produksi (`next build`) tanpa mengubah atau mengurangi fitur aplikasi yang sudah ada.
+
+Working directory: C:\Users\Laptop Acer Nitro 5\.gemini\antigravity\scratch\tatadana
+Integrity mode: development
+
+## Requirements
+
+### R1. Supabase Cloud Database Integration & Full Persistence
+- Ubah seluruh alur penulisan (write) dan pembacaan (read) data keuangan pada `lib/db/store.ts` dan service terkait agar tersimpan secara persisten ke tabel Supabase PostgreSQL (`users`, `wallets`, `categories`, `transactions`, `budgets`, `audit_logs`, `payment_transactions`).
+- Gunakan Supabase Client dengan Service Role Key (`lib/supabase/admin.ts`) untuk operasi backend/API agar bypass RLS policies secara aman di sisi server.
+- Pastikan semua query, mutasi atomik debit/kredit saldo, rekonsiliasi Single Source of Truth (SSoT), dan relasi foreign key berjalan sempurna di Supabase.
+- Sediakan fallback graceful atau migrasi otomatis data yang sudah ada di lokal ke tabel Supabase jika database baru diinisialisasi.
+
+### R2. Penanganan Media & Avatar Upload di Serverless (Supabase Storage)
+- Sesuaikan endpoint upload foto profil (`/api/profile/avatar`) agar menyimpan file ke Supabase Storage Bucket (atau fallback data URI terproteksi) menggantikan penulisan ke disk lokal `public/uploads/` yang bersifat read-only di Vercel.
+- Pertahankan seluruh validasi keamanan: batas ukuran 5MB, pengecekan MIME type dan magic bytes (JPG, PNG, WebP), self-cleaning file lama, serta sinkronisasi instan ke UI.
+
+### R3. Kompatibilitas Lingkungan Serverless Vercel & Penyesuaian Endpoint
+- Sesuaikan konfigurasi Next.js (`next.config.mjs` / `next.config.js`) dan header caching agar berjalan mulus di Vercel Edge / Serverless functions.
+- Pastikan route handler Telegram (`/api/telegram/webhook` dan `/api/telegram/poll`) mendukung deployment serverless tanpa dependensi pada background process lokal yang tak terbatas.
+- Pastikan berkas `.env.example` memuat seluruh variabel environment yang wajib diatur di Vercel Dashboard (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `TELEGRAM_BOT_TOKEN`, `DATA_ENCRYPTION_KEY`, dll.).
+
+### R4. Preservasi 100% Fitur Website & Desain UI/UX
+- Dilarang keras mengubah, menghapus, atau mengurangi fitur website yang sudah bekerja:
+  - Tampilan visual Luxury Obsidian Black & Deep Emerald Green (`#06090e`, `#0a0f16`, `#10b981`).
+  - 4 Kartu Metrik Finansial, Donut Chart Kategori, Bar Chart 6 Bulan, Tren Harian, dan Riwayat Transaksi.
+  - Kalender Finansial dengan drawer rincian tanggal dan filter multi-wallet.
+  - Sistem Budgeting Multi-Periode (Harian, Mingguan, Bulanan) dengan ambang batas alert.
+  - Tata AI Bot Financial Advisor dengan context ledger real-time.
+  - Dual Portal Auth (`/login` & `/admin/login`) dengan penguncian Zero-Trust ke `wildanakmalfathan@gmail.com`.
+  - Sistem Clean Initial State untuk pengguna baru (Rp0, 0 wallet, 0 tx).
+
+### R5. Verifikasi Build Produksi & Uji Kestabilan Menyeluruh
+- Verifikasi bahwa perintah `next build` berhasil 100% tanpa error TypeScript (`tsc --noEmit`), tanpa error bundling, dan tanpa lint failure.
+- Verifikasi bahwa seluruh test cases (`scripts/verify-all.mjs`) tetap lulus 100% dengan koneksi database aktif.
+
+## Acceptance Criteria
+
+### Technical & Functional Guardrails
+- [ ] Operasi create, update, dan delete transaksi, wallet, budget, dan profil menulis langsung ke database Supabase PostgreSQL.
+- [ ] Foto profil yang diunggah tersimpan persisten di cloud storage dan tampil di Header, Sidebar, dan Settings tanpa error filesystem lokal.
+- [ ] Perintah `npm run build` / `next build` selesai dengan exit code 0 dan output build siap dideploy ke Vercel.
+- [ ] Seluruh halaman web (`/`, `/login`, `/admin/login`, `/dashboard`, `/dashboard/kalender`, `/dashboard/budget`, `/dashboard/tata-ai`, `/dashboard/wallet`, `/dashboard/transaksi`, `/dashboard/laporan`, `/dashboard/settings`) merespons HTTP 200 OK.
+- [ ] Tidak ada fitur atau styling UI/UX yang hilang atau rusak.
+- [ ] Dokumentasi panduan deployment Vercel dan file `.env.example` lengkap tersedia.

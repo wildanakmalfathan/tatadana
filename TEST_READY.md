@@ -1,7 +1,7 @@
 # TEST_READY: TataDana Acceptance & Verification Report
 
-> **Generated At:** 2026-10-17T18:37:36.301Z  
-> **Status:** ✅ PASSED — ALL ACCEPTANCE GATES SATISFIED  
+> **Generated At:** 2026-10-17T19:33:19.819Z  
+> **Status:** ❌ FAILED — DEFECTS DETECTED  
 > **Verifier:** Master E2E Test Suite Specialist (Milestone 4: Profile Photo Upload & Persistent Avatar Verification)  
 > **Target System:** TataDana SaaS Finansial Indonesia
 
@@ -13,82 +13,82 @@
 |---|---|
 | **Total Test Suites** | 28 Suites |
 | **Total Test Cases** | 115 Tests (Requirement: >= 110) |
-| **Passed Tests** | 115 Passed |
-| **Failed Tests** | 0 Failed |
-| **Execution Duration** | 110648 ms |
-| **Overall Verdict** | **READY FOR PRODUCTION / ACCEPTANCE** |
+| **Passed Tests** | 110 Passed |
+| **Failed Tests** | 5 Failed |
+| **Execution Duration** | 91941 ms |
+| **Overall Verdict** | **BLOCKED** |
 
 ---
 
 ## 2. Test Suite Breakdown by Tier
 
 ### ✅ Route Health & Acceptance (Dual-Track HTTP 200 / Static Verification)
-- Passed: **9** | Failed: **0** | Duration: 10458ms
+- Passed: **9** | Failed: **0** | Duration: 10444ms
 
-- ✓ `verifies route health for /dashboard/kalender [Kalender Keuangan (R1)]` (3151ms)
-- ✓ `verifies route health for /dashboard/tata-ai [Tata AI Chat Assistant (R2)]` (856ms)
-- ✓ `verifies route health for /dashboard/wallet [Multi-Wallet Management (R3)]` (735ms)
-- ✓ `verifies route health for /dashboard/budget [Multi-Period Budgeting (R5)]` (1048ms)
-- ✓ `verifies route health for /dashboard/settings [Settings & Telegram Auto-Poller (R2)]` (1092ms)
-- ✓ `verifies route health for /api/telegram/poll?timeout=0 [Telegram Long Polling Endpoint (R1)]` (2022ms)
-- ✓ `verifies route health for /api/telegram/setup-bot [Telegram Bot Setup & Webhook Cleanup API (R1)]` (490ms)
-- ✓ `verifies route health for /admin/payments [Admin Payments Approval (R6)]` (1033ms)
-- ✓ `verifies route health for /admin/users [Admin Users Management (R6)]` (29ms)
+- ✓ `verifies route health for /dashboard/kalender [Kalender Keuangan (R1)]` (1186ms)
+- ✓ `verifies route health for /dashboard/tata-ai [Tata AI Chat Assistant (R2)]` (627ms)
+- ✓ `verifies route health for /dashboard/wallet [Multi-Wallet Management (R3)]` (638ms)
+- ✓ `verifies route health for /dashboard/budget [Multi-Period Budgeting (R5)]` (673ms)
+- ✓ `verifies route health for /dashboard/settings [Settings & Telegram Auto-Poller (R2)]` (907ms)
+- ✓ `verifies route health for /api/telegram/poll?timeout=0 [Telegram Long Polling Endpoint (R1)]` (6110ms)
+- ✓ `verifies route health for /api/telegram/setup-bot [Telegram Bot Setup & Webhook Cleanup API (R1)]` (276ms)
+- ✓ `verifies route health for /admin/payments [Admin Payments Approval (R6)]` (16ms)
+- ✓ `verifies route health for /admin/users [Admin Users Management (R6)]` (10ms)
 
 ### ✅ Theme Audit (R7) — Luxury Obsidian Black & Deep Emerald Green Design System
-- Passed: **6** | Failed: **0** | Duration: 11ms
+- Passed: **6** | Failed: **0** | Duration: 4ms
 
-- ✓ `verifies tailwind.config.js declares all core luxury obsidian and emerald tokens` (2ms)
-- ✓ `verifies app/globals.css configures root background and luxury glassmorphism utilities` (2ms)
-- ✓ `verifies Calendar page applies obsidian and emerald styling tokens` (1ms)
+- ✓ `verifies tailwind.config.js declares all core luxury obsidian and emerald tokens` (1ms)
+- ✓ `verifies app/globals.css configures root background and luxury glassmorphism utilities` (1ms)
+- ✓ `verifies Calendar page applies obsidian and emerald styling tokens` (0ms)
 - ✓ `verifies Tata AI page applies obsidian and emerald styling tokens` (1ms)
-- ✓ `verifies Budgeting page applies multi-period tabs with emerald accents` (2ms)
-- ✓ `verifies Wallet page applies luxury emerald card and modal styling` (2ms)
+- ✓ `verifies Budgeting page applies multi-period tabs with emerald accents` (0ms)
+- ✓ `verifies Wallet page applies luxury emerald card and modal styling` (1ms)
 
 ### ✅ Tier 1.1 — Financial Calendar UI & API (R1)
-- Passed: **3** | Failed: **0** | Duration: 4ms
-
-- ✓ `verifies Calendar API contract specification and structure` (0ms)
-- ✓ `verifies Calendar route handler file exists and exports GET handler` (2ms)
-- ✓ `verifies Calendar UI page exists with date grid and drawer interactivity` (2ms)
-
-### ✅ Tier 1.2 — Tata AI Chat Assistant & Floating Widget (R2)
-- Passed: **3** | Failed: **0** | Duration: 5ms
-
-- ✓ `verifies Tata AI financial context injection formula (50/30/20)` (0ms)
-- ✓ `verifies Tata AI Chat API contract schema and fallback response structure` (1ms)
-- ✓ `verifies Tata AI Chat route and Floating Widget component files` (2ms)
-
-### ✅ Tier 1.3 — Multi-Wallet CRUD & Telegram Default Management (R3)
-- Passed: **2** | Failed: **0** | Duration: 3ms
-
-- ✓ `verifies wallet creation and default toggle state transitions` (1ms)
-- ✓ `verifies Wallet API supports GET, POST, and PATCH operations` (1ms)
-
-### ✅ Tier 1.4 — Telegram Daemon & Real-Time Auto-Responder (R4)
-- Passed: **3** | Failed: **0** | Duration: 6ms
-
-- ✓ `verifies Telegram command parsing and regex matching` (1ms)
-- ✓ `verifies Indonesian natural language transaction parsing logic` (1ms)
-- ✓ `verifies Telegram daemon script and batch file exist` (3ms)
-
-### ✅ Tier 1.5 — Multi-Period Budget Calculation (R5)
-- Passed: **2** | Failed: **0** | Duration: 2ms
-
-- ✓ `calculates daily, weekly, and monthly budget consumption and status accurately` (0ms)
-- ✓ `verifies Budget API route file exists and handles multi-period query` (2ms)
-
-### ✅ Tier 1.6 — Admin Approval & Pro Upgrade (R6)
-- Passed: **3** | Failed: **0** | Duration: 5ms
-
-- ✓ `verifies Admin payment approval transitions payment to approved and upgrades user plan to pro` (3ms)
-- ✓ `verifies Admin payment reject action maintains starter plan and logs reason` (1ms)
-- ✓ `verifies Admin pages exist in codebase` (1ms)
-
-### ✅ Tier 1.7 — Polling-First Bot Setup & Webhook Cleanup (R1)
 - Passed: **3** | Failed: **0** | Duration: 2ms
 
-- ✓ `verifies Polling-First mode contract and deleteWebhook options specification` (1ms)
+- ✓ `verifies Calendar API contract specification and structure` (0ms)
+- ✓ `verifies Calendar route handler file exists and exports GET handler` (0ms)
+- ✓ `verifies Calendar UI page exists with date grid and drawer interactivity` (1ms)
+
+### ✅ Tier 1.2 — Tata AI Chat Assistant & Floating Widget (R2)
+- Passed: **3** | Failed: **0** | Duration: 1ms
+
+- ✓ `verifies Tata AI financial context injection formula (50/30/20)` (0ms)
+- ✓ `verifies Tata AI Chat API contract schema and fallback response structure` (0ms)
+- ✓ `verifies Tata AI Chat route and Floating Widget component files` (1ms)
+
+### ✅ Tier 1.3 — Multi-Wallet CRUD & Telegram Default Management (R3)
+- Passed: **2** | Failed: **0** | Duration: 1ms
+
+- ✓ `verifies wallet creation and default toggle state transitions` (0ms)
+- ✓ `verifies Wallet API supports GET, POST, and PATCH operations` (0ms)
+
+### ✅ Tier 1.4 — Telegram Daemon & Real-Time Auto-Responder (R4)
+- Passed: **3** | Failed: **0** | Duration: 10ms
+
+- ✓ `verifies Telegram command parsing and regex matching` (0ms)
+- ✓ `verifies Indonesian natural language transaction parsing logic` (0ms)
+- ✓ `verifies Telegram daemon script and batch file exist` (10ms)
+
+### ✅ Tier 1.5 — Multi-Period Budget Calculation (R5)
+- Passed: **2** | Failed: **0** | Duration: 1ms
+
+- ✓ `calculates daily, weekly, and monthly budget consumption and status accurately` (0ms)
+- ✓ `verifies Budget API route file exists and handles multi-period query` (1ms)
+
+### ✅ Tier 1.6 — Admin Approval & Pro Upgrade (R6)
+- Passed: **3** | Failed: **0** | Duration: 2ms
+
+- ✓ `verifies Admin payment approval transitions payment to approved and upgrades user plan to pro` (1ms)
+- ✓ `verifies Admin payment reject action maintains starter plan and logs reason` (0ms)
+- ✓ `verifies Admin pages exist in codebase` (0ms)
+
+### ✅ Tier 1.7 — Polling-First Bot Setup & Webhook Cleanup (R1)
+- Passed: **3** | Failed: **0** | Duration: 1ms
+
+- ✓ `verifies Polling-First mode contract and deleteWebhook options specification` (0ms)
 - ✓ `verifies setup-bot input validation rejects missing, empty, or whitespace-only tokens` (0ms)
 - ✓ `verifies setup-bot route handler file exists, exports POST, and contains deleteWebhook` (1ms)
 
@@ -96,28 +96,28 @@
 - Passed: **4** | Failed: **0** | Duration: 1ms
 
 - ✓ `verifies /api/telegram/poll response contract schema and properties` (0ms)
-- ✓ `verifies offset tracking and idempotency across consecutive polling iterations` (1ms)
+- ✓ `verifies offset tracking and idempotency across consecutive polling iterations` (0ms)
 - ✓ `verifies 409 Conflict self-healing recovery mechanism` (0ms)
-- ✓ `verifies /api/telegram/poll route handler file exports GET and POST with conflict handling` (0ms)
+- ✓ `verifies /api/telegram/poll route handler file exports GET and POST with conflict handling` (1ms)
 
 ### ✅ Tier 1.9 — Background Long-Polling Daemon Configuration (R3)
-- Passed: **5** | Failed: **0** | Duration: 6ms
+- Passed: **5** | Failed: **0** | Duration: 2ms
 
-- ✓ `verifies daemon long polling configuration uses official HTTP timeout: 25` (1ms)
+- ✓ `verifies daemon long polling configuration uses official HTTP timeout: 25` (0ms)
 - ✓ `verifies atomic offset persistence model (.telegram-offset.json)` (1ms)
-- ✓ `verifies daemon startup cleans webhook with drop_pending_updates: false` (1ms)
+- ✓ `verifies daemon startup cleans webhook with drop_pending_updates: false` (0ms)
 - ✓ `verifies daemon handles all message categories (text, photo receipt OCR, voice STT, slash commands, contact)` (0ms)
 - ✓ `verifies Windows batch launcher scripts/start-telegram-bot.bat provides auto-restart loop` (1ms)
 
 ### ✅ Tier 1.10 — In-App Auto-Poller & UI Settings Elements (R2)
-- Passed: **3** | Failed: **0** | Duration: 22ms
+- Passed: **3** | Failed: **0** | Duration: 24ms
 
-- ✓ `verifies UI Settings page exists and exports default React component` (1ms)
-- ✓ `verifies client auto-polling state machine and mutex guard logic` (19ms)
+- ✓ `verifies UI Settings page exists and exports default React component` (0ms)
+- ✓ `verifies client auto-polling state machine and mutex guard logic` (23ms)
 - ✓ `verifies UI Settings source file includes Long Polling and polling action components` (1ms)
 
 ### ✅ Tier 2.1 — Budget Percentage Boundary & Alert Thresholds (79% vs 80% vs 99% vs 100%)
-- Passed: **9** | Failed: **0** | Duration: 3ms
+- Passed: **9** | Failed: **0** | Duration: 1ms
 
 - ✓ `asserts 79.0% spending remains in safe status with NO alert triggered` (0ms)
 - ✓ `asserts 79.9% boundary spending remains safe with NO alert triggered` (0ms)
@@ -127,19 +127,19 @@
 - ✓ `asserts 99.9% spending remains in warning without tripping 100% alert` (0ms)
 - ✓ `asserts exactly 100.0% spending triggers critical overbudget alert` (0ms)
 - ✓ `asserts >100% spending (e.g. 115%) after 100% alert does not resend alert` (0ms)
-- ✓ `verifies production budget service and API source files implement raw ratio boundaries` (2ms)
+- ✓ `verifies production budget service and API source files implement raw ratio boundaries` (1ms)
 
 ### ✅ Tier 2.2 — Wallet Balances & Negative Transaction Boundary Cases
-- Passed: **2** | Failed: **0** | Duration: 1ms
+- Passed: **2** | Failed: **0** | Duration: 0ms
 
 - ✓ `validates transaction amount constraints (rejects negative and zero amount)` (0ms)
 - ✓ `correctly handles wallet balance calculation when balance hits Rp0` (0ms)
 
 ### ✅ Tier 2.3 — Authentication, Authorization & Security Boundaries
-- Passed: **3** | Failed: **0** | Duration: 858ms
+- Passed: **3** | Failed: **0** | Duration: 436ms
 
 - ✓ `verifies non-admin role and unauthenticated callers are rejected with HTTP 403 Forbidden` (0ms)
-- ✓ `verifies production admin routes enforce genuine authorization and return HTTP 403` (857ms)
+- ✓ `verifies production admin routes enforce genuine authorization and return HTTP 403` (434ms)
 - ✓ `verifies OTP verification code validation with incorrect and valid codes` (0ms)
 
 ### ✅ Tier 2.4 — Calendar Date Boundary & Period Math
@@ -148,106 +148,106 @@
 - ✓ `accurately calculates month day counts including February leap year` (0ms)
 
 ### ✅ Tier 3.1 — Web Transaction to Budget Alert and Calendar Update Flow
-- Passed: **1** | Failed: **0** | Duration: 0ms
+- Passed: **1** | Failed: **0** | Duration: 1ms
 
 - ✓ `executes end-to-end multi-system state chain on web transaction creation` (0ms)
 
 ### ✅ Tier 3.2 — Telegram Bot Transaction to Overbudget Alert and Calendar Sync Flow
-- Passed: **1** | Failed: **0** | Duration: 1ms
-
-- ✓ `executes Telegram chat incoming message through parsing, wallet debit, overbudget alert and calendar sync` (1ms)
-
-### ✅ Tier 3.3 — Admin Payment Approval and Real-Time Pro Upgrade Flow
 - Passed: **1** | Failed: **0** | Duration: 0ms
 
-- ✓ `executes full payment approval workflow, profile plan upgrade, and audit logging` (0ms)
+- ✓ `executes Telegram chat incoming message through parsing, wallet debit, overbudget alert and calendar sync` (0ms)
+
+### ✅ Tier 3.3 — Admin Payment Approval and Real-Time Pro Upgrade Flow
+- Passed: **1** | Failed: **0** | Duration: 1ms
+
+- ✓ `executes full payment approval workflow, profile plan upgrade, and audit logging` (1ms)
 
 ### ✅ Tier 4.1 — Complete Indonesian User Journey: Onboarding, Daily Living, Alerts & Pro Upgrade
-- Passed: **7** | Failed: **0** | Duration: 35ms
+- Passed: **7** | Failed: **0** | Duration: 21ms
 
-- ✓ `Step 1: User Onboards & Creates 3 Diverse Wallets (Bank BCA, GoPay, Cash)` (33ms)
-- ✓ `Step 2: Sets Multi-Period Budget for "Makanan & Minuman" (Harian, Mingguan, Bulanan)` (0ms)
+- ✓ `Step 1: User Onboards & Creates 3 Diverse Wallets (Bank BCA, GoPay, Cash)` (20ms)
+- ✓ `Step 2: Sets Multi-Period Budget for "Makanan & Minuman" (Harian, Mingguan, Bulanan)` (1ms)
 - ✓ `Step 3A: Records Breakfast (Nasi Uduk Rp15,000) -> Status remains Safe (20%)` (0ms)
-- ✓ `Step 3B: Records Lunch (Warteg Rp45,000) -> Reaches 80% Threshold -> Triggers Warning Alert` (1ms)
+- ✓ `Step 3B: Records Lunch (Warteg Rp45,000) -> Reaches 80% Threshold -> Triggers Warning Alert` (0ms)
 - ✓ `Step 3C: Records Dinner via Telegram ("beli sate 25rb") -> Overbudget 113.3% -> Triggers Overbudget Alert` (0ms)
 - ✓ `Step 4: User Reviews Calendar Drilldown for Today` (0ms)
-- ✓ `Step 5: User Requests Pro Upgrade and Admin Approves in Admin Panel` (1ms)
+- ✓ `Step 5: User Requests Pro Upgrade and Admin Approves in Admin Panel` (0ms)
 
 ### ✅ Master Suite A-H — Persistent Storage, Integrity & Single Source of Truth Ledger
-- Passed: **2** | Failed: **0** | Duration: 29844ms
+- Passed: **2** | Failed: **0** | Duration: 29570ms
 
-- ✓ `verifies persistent database file exists and contains initial superadmin seed` (28ms)
-- ✓ `verifies Single Source of Truth Ledger atomic mutation and integer IDR arithmetic` (29816ms)
+- ✓ `verifies persistent database file exists and contains initial superadmin seed` (22ms)
+- ✓ `verifies Single Source of Truth Ledger atomic mutation and integer IDR arithmetic` (29548ms)
 
 ### ✅ Master Suite D-F — Dual Portal Authentication, Registration Normalization & Admin Approval
-- Passed: **5** | Failed: **0** | Duration: 9783ms
+- Passed: **5** | Failed: **0** | Duration: 8905ms
 
-- ✓ `verifies registration normalizes email (lowercase trimmed) and phone (E.164 +62)` (940ms)
-- ✓ `blocks pending_approval user from logging in via standard /api/auth/login` (716ms)
-- ✓ `rejects non-admin credentials at dedicated Admin Login portal` (53ms)
-- ✓ `authenticates Superadmin Wildan at Admin Login portal and returns admin session token` (126ms)
-- ✓ `verifies Admin User Approval workflow transitions status to active and allows login` (7948ms)
+- ✓ `verifies registration normalizes email (lowercase trimmed) and phone (E.164 +62)` (582ms)
+- ✓ `blocks pending_approval user from logging in via standard /api/auth/login` (555ms)
+- ✓ `rejects non-admin credentials at dedicated Admin Login portal` (29ms)
+- ✓ `authenticates Superadmin Wildan at Admin Login portal and returns admin session token` (90ms)
+- ✓ `verifies Admin User Approval workflow transitions status to active and allows login` (7648ms)
 
 ### ✅ Master Suite J — Tata AI Bot: Ambiguity Clarification & Natural Indonesian Parsing
-- Passed: **3** | Failed: **0** | Duration: 14409ms
+- Passed: **3** | Failed: **0** | Duration: 14248ms
 
-- ✓ `proactively asks for clarification when user inputs ambiguous transaction ("Tadi bayar 50")` (67ms)
-- ✓ `proactively asks for clarification when user provides action verb with no nominal ("tadi beli bakso")` (32ms)
-- ✓ `correctly processes and records income transaction ("Gajian 5 juta")` (14308ms)
+- ✓ `proactively asks for clarification when user inputs ambiguous transaction ("Tadi bayar 50")` (26ms)
+- ✓ `proactively asks for clarification when user provides action verb with no nominal ("tadi beli bakso")` (18ms)
+- ✓ `correctly processes and records income transaction ("Gajian 5 juta")` (14204ms)
 
 ### ✅ Master Suite M — Real Report Export & CSV Formula Injection Protection
-- Passed: **3** | Failed: **0** | Duration: 14527ms
+- Passed: **3** | Failed: **0** | Duration: 14126ms
 
-- ✓ `sanitizes dangerous spreadsheet formula characters (=, +, -, @) in CSV export` (13533ms)
-- ✓ `exports binary XLSX report with spreadsheet content headers` (337ms)
-- ✓ `exports binary PDF financial report document` (657ms)
+- ✓ `sanitizes dangerous spreadsheet formula characters (=, +, -, @) in CSV export` (13108ms)
+- ✓ `exports binary XLSX report with spreadsheet content headers` (181ms)
+- ✓ `exports binary PDF financial report document` (837ms)
 
-### ✅ Master Suite G & O — Session Heartbeat, Metrics & Telegram Long Polling Health
-- Passed: **1** | Failed: **0** | Duration: 4366ms
+### ❌ Master Suite G & O — Session Heartbeat, Metrics & Telegram Long Polling Health
+- Passed: **0** | Failed: **1** | Duration: 1739ms
 
-- ✓ `records active session heartbeat and reflects in admin metrics summary` (4366ms)
+- ✗ `records active session heartbeat and reflects in admin metrics summary` (1739ms) — *Error: Expected 200 (number), but received 404 (number)*
 
-### ✅ Phase 2 — Mandatory Admin Access Control Verification (Scenarios A through G)
-- Passed: **9** | Failed: **0** | Duration: 10743ms
+### ❌ Phase 2 — Mandatory Admin Access Control Verification (Scenarios A through G)
+- Passed: **5** | Failed: **4** | Duration: 1426ms
 
-- ✓ `Scenario A: verifies normal user registration creates strictly role: "user" and login succeeds after active` (609ms)
-- ✓ `Scenario B: verifies unauthenticated and normal user direct access to /admin/* routes is redirected to login` (129ms)
-- ✓ `Scenario C: verifies calling /api/admin/* endpoints with normal user credentials returns HTTP 403 Forbidden` (2472ms)
-- ✓ `Scenario D: strictly rejects tampered role headers (x-admin-role: admin, admin_role: admin, etc.)` (138ms)
-- ✓ `Scenario E: prevents normal user from accessing other users transactions and administrative records` (42ms)
-- ✓ `Scenario F: authenticates official Superadmin Wildan with valid credentials and issues genuine admin token` (158ms)
-- ✓ `Scenario G: grants exclusive administrative access across all admin functions to verified Superadmin token` (7192ms)
-- ✓ `verifies root middleware.ts exists and enforces /admin route interception` (1ms)
+- ✗ `Scenario A: verifies normal user registration creates strictly role: "user" and login succeeds after active` (84ms) — *Error: Expected 201 (number), but received 500 (number)*
+- ✓ `Scenario B: verifies unauthenticated and normal user direct access to /admin/* routes is redirected to login` (56ms)
+- ✗ `Scenario C: verifies calling /api/admin/* endpoints with normal user credentials returns HTTP 403 Forbidden` (497ms) — *Error: Expected 403 (number), but received 404 (number)*
+- ✗ `Scenario D: strictly rejects tampered role headers (x-admin-role: admin, admin_role: admin, etc.)` (43ms) — *Error: Expected 403 (number), but received 404 (number)*
+- ✓ `Scenario E: prevents normal user from accessing other users transactions and administrative records` (23ms)
+- ✓ `Scenario F: authenticates official Superadmin Wildan with valid credentials and issues genuine admin token` (94ms)
+- ✗ `Scenario G: grants exclusive administrative access across all admin functions to verified Superadmin token` (628ms) — *Error: Expected 200 (number), but received 404 (number)*
+- ✓ `verifies root middleware.ts exists and enforces /admin route interception` (0ms)
 - ✓ `verifies lib/auth/admin-guard.ts has zero header-spoofing bypasses` (1ms)
 
 ### ✅ Master Suite: Real & Persistent Profile Photo Upload (15 Scenarios)
-- Passed: **15** | Failed: **0** | Duration: 4924ms
+- Passed: **15** | Failed: **0** | Duration: 2095ms
 
-- ✓ `Scenario 1: uploads valid JPG photo, persists on disk and in database` (3317ms)
-- ✓ `Scenario 2: uploads valid PNG photo and updates avatar URL` (101ms)
-- ✓ `Scenario 3: uploads valid WebP photo and updates avatar URL` (79ms)
-- ✓ `Scenario 4: rejects non-image file (PDF / text) with HTTP 400 Bad Request` (31ms)
-- ✓ `Scenario 5: rejects fake image with spoofed extension and invalid magic bytes with HTTP 400` (33ms)
-- ✓ `Scenario 6: rejects oversized file exceeding 5MB size limit with HTTP 413 or 400` (73ms)
-- ✓ `Scenario 7: verifies profile avatar persists in database upon re-fetch and server reload` (751ms)
-- ✓ `Scenario 8: rejects unauthenticated avatar upload requests with HTTP 401 Unauthorized` (52ms)
-- ✓ `Scenario 9: enforces strict user isolation — User A cannot mutate User B avatar` (142ms)
-- ✓ `Scenario 10: self-cleans old avatar files from disk when new photo is uploaded` (2ms)
-- ✓ `Scenario 11: DELETE /api/profile/avatar resets avatar to default emoji and removes physical file` (114ms)
-- ✓ `Scenario 12: switching to built-in emojis via PATCH /api/profile persists in database` (146ms)
-- ✓ `Scenario 13: serves uploaded avatar files statically with HTTP 200 and correct Content-Type` (73ms)
+- ✓ `Scenario 1: uploads valid JPG photo, persists on disk and in database` (1218ms)
+- ✓ `Scenario 2: uploads valid PNG photo and updates avatar URL` (37ms)
+- ✓ `Scenario 3: uploads valid WebP photo and updates avatar URL` (43ms)
+- ✓ `Scenario 4: rejects non-image file (PDF / text) with HTTP 400 Bad Request` (28ms)
+- ✓ `Scenario 5: rejects fake image with spoofed extension and invalid magic bytes with HTTP 400` (25ms)
+- ✓ `Scenario 6: rejects oversized file exceeding 5MB size limit with HTTP 413 or 400` (52ms)
+- ✓ `Scenario 7: verifies profile avatar persists in database upon re-fetch and server reload` (401ms)
+- ✓ `Scenario 8: rejects unauthenticated avatar upload requests with HTTP 401 Unauthorized` (19ms)
+- ✓ `Scenario 9: enforces strict user isolation — User A cannot mutate User B avatar` (75ms)
+- ✓ `Scenario 10: self-cleans old avatar files from disk when new photo is uploaded` (1ms)
+- ✓ `Scenario 11: DELETE /api/profile/avatar resets avatar to default emoji and removes physical file` (65ms)
+- ✓ `Scenario 12: switching to built-in emojis via PATCH /api/profile persists in database` (78ms)
+- ✓ `Scenario 13: serves uploaded avatar files statically with HTTP 200 and correct Content-Type` (45ms)
 - ✓ `Scenario 14: verifies Sidebar, Header, DashboardLayout, and Settings implement avatar references` (6ms)
-- ✓ `Scenario 15: verifies scripts/verify-all.mjs imports and executes profile-avatar suite with >= 105 gate` (1ms)
+- ✓ `Scenario 15: verifies scripts/verify-all.mjs imports and executes profile-avatar suite with >= 105 gate` (2ms)
 
 ### ✅ Master Suite: New User Clean Initial State & Data Isolation (Tests A through F)
-- Passed: **6** | Failed: **0** | Duration: 10624ms
+- Passed: **6** | Failed: **0** | Duration: 8877ms
 
-- ✓ `Test A: New user registration starts with 0 wallets, 0 transactions, Rp0 balance and income/expense` (9106ms)
-- ✓ `Test B: Transaction history returns empty array with zero dummy/sample data` (98ms)
-- ✓ `Test C: User manually creates their first wallet and sets default` (195ms)
-- ✓ `Test D: Recording first transaction mutates wallet balance atomically from Rp0` (296ms)
-- ✓ `Test E: Strict inter-user data isolation — User 2 starts at Rp0 with zero access to User 1 data` (899ms)
-- ✓ `Test F: Preserves official Superadmin Wildan credentials, role, and existing seeded wallets` (30ms)
+- ✓ `Test A: New user registration starts with 0 wallets, 0 transactions, Rp0 balance and income/expense` (8140ms)
+- ✓ `Test B: Transaction history returns empty array with zero dummy/sample data` (45ms)
+- ✓ `Test C: User manually creates their first wallet and sets default` (104ms)
+- ✓ `Test D: Recording first transaction mutates wallet balance atomically from Rp0` (135ms)
+- ✓ `Test E: Strict inter-user data isolation — User 2 starts at Rp0 with zero access to User 1 data` (434ms)
+- ✓ `Test F: Preserves official Superadmin Wildan credentials, role, and existing seeded wallets` (19ms)
 
 ---
 
